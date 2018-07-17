@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>8. Verify that super admin is able to add assessment</description>
+   <name>1.7. Verify that super admin is able to add assessment general form</name>
+   <tag>Add, assessment</tag>
+   <comment></comment>
+   <testCaseGuid>fce9b0fc-e2a2-4eb2-9592-22af86dd914b</testCaseGuid>
+</TestCaseEntity>

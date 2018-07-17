@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>6. Verify that super admin is able to add new client</description>
+   <name>1.5. Verify that super admin is able to add new client</name>
+   <tag>Add, Client</tag>
+   <comment></comment>
+   <testCaseGuid>6f5bd50f-e9de-48dd-bb11-beaa173caeec</testCaseGuid>
+</TestCaseEntity>

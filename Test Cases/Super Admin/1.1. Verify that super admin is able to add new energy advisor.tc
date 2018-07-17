@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that admin is able to add new EA</description>
+   <name>1.1. Verify that super admin is able to add new energy advisor</name>
+   <tag>Add EA</tag>
+   <comment></comment>
+   <testCaseGuid>1e9599ba-5a46-48df-a588-71937f8dfa3a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cea0b8ab-b01f-4652-a618-832c23a7d35f</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

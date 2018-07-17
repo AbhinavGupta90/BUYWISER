@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="196" tests="6" failures="1" errors="0">
+   <testsuite name="test" tests="6" failures="1" errors="0" time="196" timestamp="2018-07-16 11:19:45" hostname="abhinav.gupta - wks227.nsi.lab" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\test\\20180716_111941"/>
+         <property name="logFiles" value="C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\test\\20180716_111941\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\test\\20180716_111941\\1531720379405.png"/>
+         <property name="hostName" value="abhinav.gupta - wks227.nsi.lab"/>
+         <property name="os" value="Windows 8.1 32bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.14.121"/>
+         <property name="sessionId" value="62f29b9703bd616894d6061dc704ef34"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Super Admin/1. Verify that super admin is able to login with valid details" classname="Test Cases/Super Admin/1. Verify that super admin is able to login with valid details" status="PASSED">
+         <system-out><![CDATA[2018-07-16 11:19:46 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1. Verify that super admin is able to login with valid details
+
+2018-07-16 11:19:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 11:19:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 11:19:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-16 11:20:11 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-16 11:20:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 11:20:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 11:20:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1. Log in page/Email field' is present
+
+2018-07-16 11:20:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/1. Log in page/Email field' is present
+
+2018-07-16 11:20:12 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1. Log in page/Email field'
+
+2018-07-16 11:20:13 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1. Log in page/Email field'
+
+2018-07-16 11:20:13 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1. Log in page/Password field'
+
+2018-07-16 11:20:13 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1. Log in page/Password field'
+
+2018-07-16 11:20:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1. Log in page/Submit Button' is clicked on
+
+2018-07-16 11:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Log in page/Submit Button' is clicked on
+
+2018-07-16 11:20:22 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-16 11:20:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:20:22 - [MESSAGE][PASSED] - Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/2. Verify that super admin is able to add new energy advisor" classname="Test Cases/Super Admin/2. Verify that super admin is able to add new energy advisor" status="PASSED">
+         <system-out><![CDATA[2018-07-16 11:20:22 - [TEST_CASE][PASSED] - Test Cases/Super Admin/2. Verify that super admin is able to add new energy advisor: Test Cases/Super Admin/2. Verify that super admin is able to add new energy advisor
+
+2018-07-16 11:20:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2. Energy Advisors listing page/Add New Account link' is clicked on
+
+2018-07-16 11:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Energy Advisors listing page/Add New Account link' is clicked on
+
+2018-07-16 11:20:24 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/3. Add Energy Advisor page/Header create new advisor account' is present
+
+2018-07-16 11:20:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:20:24 - [MESSAGE][PASSED] - Object 'Object Repository/3. Add Energy Advisor page/Header create new advisor account' is present
+
+2018-07-16 11:20:24 - [TEST_STEP][PASSED] - sendKeys: Keys '5Luptatum' sent to object: 'Object Repository/3. Add Energy Advisor page/Advisor Identifier Code'
+
+2018-07-16 11:20:24 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomHeading is PASSED
+
+2018-07-16 11:20:24 - [MESSAGE][PASSED] - Keys '5Luptatum' sent to object: 'Object Repository/3. Add Energy Advisor page/Advisor Identifier Code'
+
+2018-07-16 11:20:24 - [TEST_STEP][PASSED] - sendKeys: Keys 'Kaye' sent to object: 'Object Repository/3. Add Energy Advisor page/Company Name'
+
+2018-07-16 11:20:24 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-16 11:20:25 - [MESSAGE][PASSED] - Keys 'Kaye' sent to object: 'Object Repository/3. Add Energy Advisor page/Company Name'
+
+2018-07-16 11:20:25 - [TEST_STEP][PASSED] - sendKeys: Keys 'Harrison' sent to object: 'Object Repository/3. Add Energy Advisor page/First Name'
+
+2018-07-16 11:20:25 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-16 11:20:25 - [MESSAGE][PASSED] - Keys 'Harrison' sent to object: 'Object Repository/3. Add Energy Advisor page/First Name'
+
+2018-07-16 11:20:25 - [TEST_STEP][PASSED] - sendKeys: Keys 'Cunningham' sent to object: 'Object Repository/3. Add Energy Advisor page/Last Name'
+
+2018-07-16 11:20:25 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomLastName is PASSED
+
+2018-07-16 11:20:25 - [MESSAGE][PASSED] - Keys 'Cunningham' sent to object: 'Object Repository/3. Add Energy Advisor page/Last Name'
+
+2018-07-16 11:20:25 - [TEST_STEP][PASSED] - sendKeys: Keys '9876543210' sent to object: 'Object Repository/3. Add Energy Advisor page/Business Phone'
+
+2018-07-16 11:20:25 - [MESSAGE][PASSED] - Keys '9876543210' sent to object: 'Object Repository/3. Add Energy Advisor page/Business Phone'
+
+2018-07-16 11:20:25 - [TEST_STEP][PASSED] - sendKeys: Keys '9876543210' sent to object: 'Object Repository/3. Add Energy Advisor page/Home Phone'
+
+2018-07-16 11:20:25 - [MESSAGE][PASSED] - Keys '9876543210' sent to object: 'Object Repository/3. Add Energy Advisor page/Home Phone'
+
+2018-07-16 11:20:25 - [TEST_STEP][PASSED] - sendKeys: Keys '9876543210' sent to object: 'Object Repository/3. Add Energy Advisor page/Mobile Number'
+
+2018-07-16 11:20:25 - [MESSAGE][PASSED] - Keys '9876543210' sent to object: 'Object Repository/3. Add Energy Advisor page/Mobile Number'
+
+2018-07-16 11:20:25 - [TEST_STEP][PASSED] - Statement - object1 = CustomKeywords.newPackage.TestDataGenerator.getRandomEmail(): newPackage.TestDataGenerator.getRandomEmail is PASSED
+
+2018-07-16 11:20:25 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomEmail is PASSED
+
+2018-07-16 11:20:25 - [TEST_STEP][PASSED] - sendKeys: Keys 'heidi.sanchez@example.com' sent to object: 'Object Repository/3. Add Energy Advisor page/Email Address'
+
+2018-07-16 11:20:26 - [MESSAGE][PASSED] - Keys 'heidi.sanchez@example.com' sent to object: 'Object Repository/3. Add Energy Advisor page/Email Address'
+
+2018-07-16 11:20:26 - [TEST_STEP][PASSED] - Statement - println("Email entered is " + object1): null
+
+2018-07-16 11:20:26 - [TEST_STEP][PASSED] - sendKeys: Keys 'Rayington' sent to object: 'Object Repository/3. Add Energy Advisor page/Street'
+
+2018-07-16 11:20:26 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-16 11:20:26 - [MESSAGE][PASSED] - Keys 'Rayington' sent to object: 'Object Repository/3. Add Energy Advisor page/Street'
+
+2018-07-16 11:20:26 - [TEST_STEP][PASSED] - sendKeys: Keys 'NewDiggings' sent to object: 'Object Repository/3. Add Energy Advisor page/City'
+
+2018-07-16 11:20:26 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-16 11:20:26 - [MESSAGE][PASSED] - Keys 'NewDiggings' sent to object: 'Object Repository/3. Add Energy Advisor page/City'
+
+2018-07-16 11:20:26 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A 1A1' sent to object: 'Object Repository/3. Add Energy Advisor page/Postal Code'
+
+2018-07-16 11:20:27 - [MESSAGE][PASSED] - Keys 'A1A 1A1' sent to object: 'Object Repository/3. Add Energy Advisor page/Postal Code'
+
+2018-07-16 11:20:27 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A 1A1' sent to object: 'Object Repository/3. Add Energy Advisor page/Postal Code'
+
+2018-07-16 11:20:27 - [MESSAGE][PASSED] - Keys 'A1A 1A1' sent to object: 'Object Repository/3. Add Energy Advisor page/Postal Code'
+
+2018-07-16 11:20:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/3. Add Energy Advisor page/Alternate Address checkbox' is clicked on
+
+2018-07-16 11:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Add Energy Advisor page/Alternate Address checkbox' is clicked on
+
+2018-07-16 11:20:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/3. Add Energy Advisor page/Create Account button' is clicked on
+
+2018-07-16 11:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/3. Add Energy Advisor page/Create Account button' is clicked on
+
+2018-07-16 11:20:28 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-16 11:20:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:20:50 - [MESSAGE][PASSED] - Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-16 11:20:50 - [TEST_STEP][PASSED] - Statement - object2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record email ID)): Text of object 'Object Repository/2. Energy Advisors listing page/First record email ID' is: 'heidi.sanchez@example.com'
+
+2018-07-16 11:20:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/2. Energy Advisors listing page/First record email ID' is: 'heidi.sanchez@example.com'
+
+2018-07-16 11:20:51 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'heidi.sanchez@example.com' and expected text 'heidi.sanchez@example.com' are matched 
+
+2018-07-16 11:20:51 - [MESSAGE][PASSED] - Actual text 'heidi.sanchez@example.com' and expected text 'heidi.sanchez@example.com' are matched 
+
+2018-07-16 11:20:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 11:20:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/3. Verify that super admin is able to search energy advisor" classname="Test Cases/Super Admin/3. Verify that super admin is able to search energy advisor" status="PASSED">
+         <system-out><![CDATA[2018-07-16 11:20:52 - [TEST_CASE][PASSED] - Test Cases/Super Admin/3. Verify that super admin is able to search energy advisor: Test Cases/Super Admin/3. Verify that super admin is able to search energy advisor
+
+2018-07-16 11:20:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1. Verify that super admin is able to login with valid details' successfully
+
+2018-07-16 11:20:53 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1. Verify that super admin is able to login with valid details
+
+2018-07-16 11:20:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 11:20:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 11:20:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-16 11:20:57 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-16 11:20:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 11:20:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 11:20:59 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1. Log in page/Email field' is present
+
+2018-07-16 11:20:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:20:59 - [MESSAGE][PASSED] - Object 'Object Repository/1. Log in page/Email field' is present
+
+2018-07-16 11:20:59 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1. Log in page/Email field'
+
+2018-07-16 11:20:59 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1. Log in page/Email field'
+
+2018-07-16 11:20:59 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1. Log in page/Password field'
+
+2018-07-16 11:20:59 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1. Log in page/Password field'
+
+2018-07-16 11:20:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1. Log in page/Submit Button' is clicked on
+
+2018-07-16 11:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Log in page/Submit Button' is clicked on
+
+2018-07-16 11:21:00 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-16 11:21:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:00 - [MESSAGE][PASSED] - Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-16 11:21:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1. Verify that super admin is able to login with valid details' successfully
+
+2018-07-16 11:21:00 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/2. Energy Advisors listing page/Search Field' is present
+
+2018-07-16 11:21:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:00 - [MESSAGE][PASSED] - Object 'Object Repository/2. Energy Advisors listing page/Search Field' is present
+
+2018-07-16 11:21:00 - [TEST_STEP][PASSED] - Statement - object1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record ID)): Text of object 'Object Repository/2. Energy Advisors listing page/First record ID' is: 'C1'
+
+2018-07-16 11:21:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/2. Energy Advisors listing page/First record ID' is: 'C1'
+
+2018-07-16 11:21:00 - [TEST_STEP][PASSED] - Statement - object2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record name)): Text of object 'Object Repository/2. Energy Advisors listing page/First record name' is: 'Harrison Cunningham'
+
+2018-07-16 11:21:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/2. Energy Advisors listing page/First record name' is: 'Harrison Cunningham'
+
+2018-07-16 11:21:00 - [TEST_STEP][PASSED] - Statement - object3 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record company)): Text of object 'Object Repository/2. Energy Advisors listing page/First record company' is: 'Kaye'
+
+2018-07-16 11:21:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/2. Energy Advisors listing page/First record company' is: 'Kaye'
+
+2018-07-16 11:21:01 - [TEST_STEP][PASSED] - Statement - object4 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record email ID)): Text of object 'Object Repository/2. Energy Advisors listing page/First record email ID' is: 'heidi.sanchez@example.com'
+
+2018-07-16 11:21:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/2. Energy Advisors listing page/First record email ID' is: 'heidi.sanchez@example.com'
+
+2018-07-16 11:21:01 - [TEST_STEP][PASSED] - sendKeys: Keys 'heidi.sanchez@example.com' sent to object: 'Object Repository/2. Energy Advisors listing page/Search Field'
+
+2018-07-16 11:21:01 - [MESSAGE][PASSED] - Keys 'heidi.sanchez@example.com' sent to object: 'Object Repository/2. Energy Advisors listing page/Search Field'
+
+2018-07-16 11:21:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2. Energy Advisors listing page/Search button' is clicked on
+
+2018-07-16 11:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Energy Advisors listing page/Search button' is clicked on
+
+2018-07-16 11:21:01 - [TEST_STEP][PASSED] - Statement - object5 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/Searched record email ID)): Text of object 'Object Repository/2. Energy Advisors listing page/Searched record email ID' is: 'heidi.sanchez@example.com'
+
+2018-07-16 11:21:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/2. Energy Advisors listing page/Searched record email ID' is: 'heidi.sanchez@example.com'
+
+2018-07-16 11:21:01 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'heidi.sanchez@example.com' and expected text 'heidi.sanchez@example.com' are matched 
+
+2018-07-16 11:21:01 - [MESSAGE][PASSED] - Actual text 'heidi.sanchez@example.com' and expected text 'heidi.sanchez@example.com' are matched 
+
+2018-07-16 11:21:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 11:21:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/4. Verify that super admin is able to filter energy advisor with status" classname="Test Cases/Super Admin/4. Verify that super admin is able to filter energy advisor with status" status="PASSED">
+         <system-out><![CDATA[2018-07-16 11:21:02 - [TEST_CASE][PASSED] - Test Cases/Super Admin/4. Verify that super admin is able to filter energy advisor with status: Test Cases/Super Admin/4. Verify that super admin is able to filter energy advisor with status
+
+2018-07-16 11:21:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1. Verify that super admin is able to login with valid details' successfully
+
+2018-07-16 11:21:02 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1. Verify that super admin is able to login with valid details
+
+2018-07-16 11:21:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 11:21:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 11:21:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-16 11:21:06 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-16 11:21:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 11:21:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 11:21:07 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1. Log in page/Email field' is present
+
+2018-07-16 11:21:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:07 - [MESSAGE][PASSED] - Object 'Object Repository/1. Log in page/Email field' is present
+
+2018-07-16 11:21:07 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1. Log in page/Email field'
+
+2018-07-16 11:21:07 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1. Log in page/Email field'
+
+2018-07-16 11:21:07 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1. Log in page/Password field'
+
+2018-07-16 11:21:07 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1. Log in page/Password field'
+
+2018-07-16 11:21:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1. Log in page/Submit Button' is clicked on
+
+2018-07-16 11:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Log in page/Submit Button' is clicked on
+
+2018-07-16 11:21:08 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-16 11:21:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:08 - [MESSAGE][PASSED] - Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-16 11:21:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1. Verify that super admin is able to login with valid details' successfully
+
+2018-07-16 11:21:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2. Energy Advisors listing page/Filter by status' is clicked on
+
+2018-07-16 11:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Energy Advisors listing page/Filter by status' is clicked on
+
+2018-07-16 11:21:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2. Energy Advisors listing page/Filter by status active' is clicked on
+
+2018-07-16 11:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Energy Advisors listing page/Filter by status active' is clicked on
+
+2018-07-16 11:21:09 - [TEST_STEP][PASSED] - Statement - object1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record status)): Text of object 'Object Repository/2. Energy Advisors listing page/First record status' is: 'Active'
+
+2018-07-16 11:21:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/2. Energy Advisors listing page/First record status' is: 'Active'
+
+2018-07-16 11:21:09 - [TEST_STEP][PASSED] - Statement - bol = object1 == "Active": null
+
+2018-07-16 11:21:09 - [TEST_STEP][PASSED] - Statement - assert bol == true: null
+
+2018-07-16 11:21:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2. Energy Advisors listing page/Filter by status' is clicked on
+
+2018-07-16 11:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Energy Advisors listing page/Filter by status' is clicked on
+
+2018-07-16 11:21:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2. Energy Advisors listing page/Filter by status inactive' is clicked on
+
+2018-07-16 11:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Energy Advisors listing page/Filter by status inactive' is clicked on
+
+2018-07-16 11:21:09 - [TEST_STEP][PASSED] - Statement - object2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record status)): Text of object 'Object Repository/2. Energy Advisors listing page/First record status' is: 'Inactive'
+
+2018-07-16 11:21:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/2. Energy Advisors listing page/First record status' is: 'Inactive'
+
+2018-07-16 11:21:09 - [TEST_STEP][PASSED] - Statement - bol1 = object2 == "Inactive": null
+
+2018-07-16 11:21:09 - [TEST_STEP][PASSED] - Statement - assert bol1 == true: null
+
+2018-07-16 11:21:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2. Energy Advisors listing page/Filter by status' is clicked on
+
+2018-07-16 11:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Energy Advisors listing page/Filter by status' is clicked on
+
+2018-07-16 11:21:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2. Energy Advisors listing page/Filter by status all' is clicked on
+
+2018-07-16 11:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Energy Advisors listing page/Filter by status all' is clicked on
+
+2018-07-16 11:21:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 11:21:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/5. Verify that super admin is able to navigate on next page of energy advisor list" classname="Test Cases/Super Admin/5. Verify that super admin is able to navigate on next page of energy advisor list" status="PASSED">
+         <system-out><![CDATA[2018-07-16 11:21:10 - [TEST_CASE][PASSED] - Test Cases/Super Admin/5. Verify that super admin is able to navigate on next page of energy advisor list: Test Cases/Super Admin/5. Verify that super admin is able to navigate on next page of energy advisor list
+
+2018-07-16 11:21:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1. Verify that super admin is able to login with valid details' successfully
+
+2018-07-16 11:21:10 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1. Verify that super admin is able to login with valid details
+
+2018-07-16 11:21:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 11:21:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 11:21:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-16 11:21:14 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-16 11:21:14 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 11:21:15 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 11:21:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1. Log in page/Email field' is present
+
+2018-07-16 11:21:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/1. Log in page/Email field' is present
+
+2018-07-16 11:21:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1. Log in page/Email field'
+
+2018-07-16 11:21:15 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1. Log in page/Email field'
+
+2018-07-16 11:21:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1. Log in page/Password field'
+
+2018-07-16 11:21:15 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1. Log in page/Password field'
+
+2018-07-16 11:21:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1. Log in page/Submit Button' is clicked on
+
+2018-07-16 11:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Log in page/Submit Button' is clicked on
+
+2018-07-16 11:21:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-16 11:21:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:17 - [MESSAGE][PASSED] - Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-16 11:21:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1. Verify that super admin is able to login with valid details' successfully
+
+2018-07-16 11:21:17 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/2. Energy Advisors listing page/Second listing page' successfully
+
+2018-07-16 11:21:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/2. Energy Advisors listing page/Second listing page' successfully
+
+2018-07-16 11:21:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2. Energy Advisors listing page/Second listing page' is clicked on
+
+2018-07-16 11:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Energy Advisors listing page/Second listing page' is clicked on
+
+2018-07-16 11:21:17 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/2. Energy Advisors listing page/Pagination left arrow' is visible
+
+2018-07-16 11:21:17 - [MESSAGE][PASSED] - Object 'Object Repository/2. Energy Advisors listing page/Pagination left arrow' is visible
+
+2018-07-16 11:21:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 11:21:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/6. Verify that super admin is able to add new client" classname="Test Cases/Super Admin/6. Verify that super admin is able to add new client" status="PASSED">
+         <system-out><![CDATA[2018-07-16 11:21:18 - [TEST_CASE][PASSED] - Test Cases/Super Admin/6. Verify that super admin is able to add new client: Test Cases/Super Admin/6. Verify that super admin is able to add new client
+
+2018-07-16 11:21:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1. Verify that super admin is able to login with valid details' successfully
+
+2018-07-16 11:21:18 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1. Verify that super admin is able to login with valid details
+
+2018-07-16 11:21:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 11:21:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 11:21:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-16 11:21:22 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-16 11:21:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 11:21:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 11:21:23 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1. Log in page/Email field' is present
+
+2018-07-16 11:21:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:23 - [MESSAGE][PASSED] - Object 'Object Repository/1. Log in page/Email field' is present
+
+2018-07-16 11:21:23 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1. Log in page/Email field'
+
+2018-07-16 11:21:23 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1. Log in page/Email field'
+
+2018-07-16 11:21:23 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1. Log in page/Password field'
+
+2018-07-16 11:21:23 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1. Log in page/Password field'
+
+2018-07-16 11:21:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1. Log in page/Submit Button' is clicked on
+
+2018-07-16 11:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Log in page/Submit Button' is clicked on
+
+2018-07-16 11:21:24 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-16 11:21:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:24 - [MESSAGE][PASSED] - Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-16 11:21:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1. Verify that super admin is able to login with valid details' successfully
+
+2018-07-16 11:21:24 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/2. Energy Advisors listing page/Top navigation clients ' is present
+
+2018-07-16 11:21:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:24 - [MESSAGE][PASSED] - Object 'Object Repository/2. Energy Advisors listing page/Top navigation clients ' is present
+
+2018-07-16 11:21:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2. Energy Advisors listing page/Top navigation clients ' is clicked on
+
+2018-07-16 11:21:26 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Energy Advisors listing page/Top navigation clients ' is clicked on
+
+2018-07-16 11:21:26 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/4. Client listing page/Add new client link' is present
+
+2018-07-16 11:21:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:26 - [MESSAGE][PASSED] - Object 'Object Repository/4. Client listing page/Add new client link' is present
+
+2018-07-16 11:21:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4. Client listing page/Add new client link' is clicked on
+
+2018-07-16 11:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/4. Client listing page/Add new client link' is clicked on
+
+2018-07-16 11:21:27 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/5. Add Client page/Header add new client' is present
+
+2018-07-16 11:21:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:27 - [MESSAGE][PASSED] - Object 'Object Repository/5. Add Client page/Header add new client' is present
+
+2018-07-16 11:21:27 - [TEST_STEP][PASSED] - Statement - object1 = CustomKeywords.newPackage.TestDataGenerator.getRandomFirstName(): newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-16 11:21:27 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-16 11:21:27 - [TEST_STEP][PASSED] - sendKeys: Keys 'Diana' sent to object: 'Object Repository/5. Add Client page/Business name'
+
+2018-07-16 11:21:27 - [MESSAGE][PASSED] - Keys 'Diana' sent to object: 'Object Repository/5. Add Client page/Business name'
+
+2018-07-16 11:21:27 - [TEST_STEP][PASSED] - sendKeys: Keys '9876543210' sent to object: 'Object Repository/5. Add Client page/Business phone'
+
+2018-07-16 11:21:28 - [MESSAGE][PASSED] - Keys '9876543210' sent to object: 'Object Repository/5. Add Client page/Business phone'
+
+2018-07-16 11:21:28 - [TEST_STEP][PASSED] - sendKeys: Keys 'teresa.cleveland@example.com' sent to object: 'Object Repository/5. Add Client page/Business email'
+
+2018-07-16 11:21:28 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomEmail is PASSED
+
+2018-07-16 11:21:28 - [MESSAGE][PASSED] - Keys 'teresa.cleveland@example.com' sent to object: 'Object Repository/5. Add Client page/Business email'
+
+2018-07-16 11:21:28 - [TEST_STEP][PASSED] - sendKeys: Keys 'Minnesota' sent to object: 'Object Repository/5. Add Client page/Business details street'
+
+2018-07-16 11:21:28 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-16 11:21:28 - [MESSAGE][PASSED] - Keys 'Minnesota' sent to object: 'Object Repository/5. Add Client page/Business details street'
+
+2018-07-16 11:21:28 - [TEST_STEP][PASSED] - sendKeys: Keys 'WestlakeVillage' sent to object: 'Object Repository/5. Add Client page/Business details city'
+
+2018-07-16 11:21:28 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-16 11:21:29 - [MESSAGE][PASSED] - Keys 'WestlakeVillage' sent to object: 'Object Repository/5. Add Client page/Business details city'
+
+2018-07-16 11:21:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A 1A1' sent to object: 'Object Repository/5. Add Client page/Business details postal code'
+
+2018-07-16 11:21:29 - [MESSAGE][PASSED] - Keys 'A1A 1A1' sent to object: 'Object Repository/5. Add Client page/Business details postal code'
+
+2018-07-16 11:21:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A 1A1' sent to object: 'Object Repository/5. Add Client page/Business details postal code'
+
+2018-07-16 11:21:29 - [MESSAGE][PASSED] - Keys 'A1A 1A1' sent to object: 'Object Repository/5. Add Client page/Business details postal code'
+
+2018-07-16 11:21:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'Ariel' sent to object: 'Object Repository/5. Add Client page/Contact person firstname'
+
+2018-07-16 11:21:29 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-16 11:21:29 - [MESSAGE][PASSED] - Keys 'Ariel' sent to object: 'Object Repository/5. Add Client page/Contact person firstname'
+
+2018-07-16 11:21:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'Jordan' sent to object: 'Object Repository/5. Add Client page/Contact person lastname'
+
+2018-07-16 11:21:29 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomLastName is PASSED
+
+2018-07-16 11:21:29 - [MESSAGE][PASSED] - Keys 'Jordan' sent to object: 'Object Repository/5. Add Client page/Contact person lastname'
+
+2018-07-16 11:21:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'earlene.mcgowan@example.com' sent to object: 'Object Repository/5. Add Client page/Contact person email'
+
+2018-07-16 11:21:29 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomEmail is PASSED
+
+2018-07-16 11:21:30 - [MESSAGE][PASSED] - Keys 'earlene.mcgowan@example.com' sent to object: 'Object Repository/5. Add Client page/Contact person email'
+
+2018-07-16 11:21:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'Williamson' sent to object: 'Object Repository/5. Add Client page/Contact person role'
+
+2018-07-16 11:21:30 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomLastName is PASSED
+
+2018-07-16 11:21:30 - [MESSAGE][PASSED] - Keys 'Williamson' sent to object: 'Object Repository/5. Add Client page/Contact person role'
+
+2018-07-16 11:21:30 - [TEST_STEP][PASSED] - sendKeys: Keys '9876543210' sent to object: 'Object Repository/5. Add Client page/Contact person phone number'
+
+2018-07-16 11:21:30 - [MESSAGE][PASSED] - Keys '9876543210' sent to object: 'Object Repository/5. Add Client page/Contact person phone number'
+
+2018-07-16 11:21:30 - [TEST_STEP][PASSED] - sendKeys: Keys '9876543210' sent to object: 'Object Repository/5. Add Client page/Contact person mobile'
+
+2018-07-16 11:21:30 - [MESSAGE][PASSED] - Keys '9876543210' sent to object: 'Object Repository/5. Add Client page/Contact person mobile'
+
+2018-07-16 11:21:30 - [TEST_STEP][PASSED] - sendKeys: Keys '12345' sent to object: 'Object Repository/5. Add Client page/Contact person ext'
+
+2018-07-16 11:21:30 - [MESSAGE][PASSED] - Keys '12345' sent to object: 'Object Repository/5. Add Client page/Contact person ext'
+
+2018-07-16 11:21:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'Chassey' sent to object: 'Object Repository/5. Add Client page/Evaluation property street'
+
+2018-07-16 11:21:30 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-16 11:21:30 - [MESSAGE][PASSED] - Keys 'Chassey' sent to object: 'Object Repository/5. Add Client page/Evaluation property street'
+
+2018-07-16 11:21:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'LincolnHeights' sent to object: 'Object Repository/5. Add Client page/Evaluation property city'
+
+2018-07-16 11:21:30 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-16 11:21:31 - [MESSAGE][PASSED] - Keys 'LincolnHeights' sent to object: 'Object Repository/5. Add Client page/Evaluation property city'
+
+2018-07-16 11:21:31 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A 1A1' sent to object: 'Object Repository/5. Add Client page/Evaluation property postal code'
+
+2018-07-16 11:21:31 - [MESSAGE][PASSED] - Keys 'A1A 1A1' sent to object: 'Object Repository/5. Add Client page/Evaluation property postal code'
+
+2018-07-16 11:21:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/5. Add Client page/Evaluation property select ownership' is clicked on
+
+2018-07-16 11:21:31 - [MESSAGE][PASSED] - Object: 'Object Repository/5. Add Client page/Evaluation property select ownership' is clicked on
+
+2018-07-16 11:21:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/5. Add Client page/Evaluation property select dwelling private' is clicked on
+
+2018-07-16 11:21:31 - [MESSAGE][PASSED] - Object: 'Object Repository/5. Add Client page/Evaluation property select dwelling private' is clicked on
+
+2018-07-16 11:21:31 - [TEST_STEP][PASSED] - sendKeys: Keys 'Meredith' sent to object: 'Object Repository/5. Add Client page/Evaluation property builder name'
+
+2018-07-16 11:21:31 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-16 11:21:31 - [MESSAGE][PASSED] - Keys 'Meredith' sent to object: 'Object Repository/5. Add Client page/Evaluation property builder name'
+
+2018-07-16 11:21:31 - [TEST_STEP][PASSED] - sendKeys: Keys '12345' sent to object: 'Object Repository/5. Add Client page/Evaluation property tax roll'
+
+2018-07-16 11:21:32 - [MESSAGE][PASSED] - Keys '12345' sent to object: 'Object Repository/5. Add Client page/Evaluation property tax roll'
+
+2018-07-16 11:21:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/5. Add Client page/Add new client button' is clicked on
+
+2018-07-16 11:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/5. Add Client page/Add new client button' is clicked on
+
+2018-07-16 11:21:34 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/4. Client listing page/Header Clients' is present
+
+2018-07-16 11:21:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:34 - [MESSAGE][PASSED] - Object 'Object Repository/4. Client listing page/Header Clients' is present
+
+2018-07-16 11:21:34 - [TEST_STEP][PASSED] - Statement - object2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(4. Client listing page/First record name)): Text of object 'Object Repository/4. Client listing page/First record name' is: 'Diana'
+
+2018-07-16 11:21:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/4. Client listing page/First record name' is: 'Diana'
+
+2018-07-16 11:21:34 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Diana' and expected text 'Diana' are matched 
+
+2018-07-16 11:21:34 - [MESSAGE][PASSED] - Actual text 'Diana' and expected text 'Diana' are matched 
+
+2018-07-16 11:21:34 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-16 11:21:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-16 11:21:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-16 11:21:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/7. Verify that super admin is able to add property" classname="Test Cases/Super Admin/7. Verify that super admin is able to add property" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/7. Add property page/Select client' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/7. Add property page/Select client' located by 'By.xpath: //p[(text() = 'C1' or . = 'C1')]' not found)"/>
+         <system-out><![CDATA[2018-07-16 11:21:45 - [TEST_CASE][FAILED] - Test Cases/Super Admin/7. Verify that super admin is able to add property: Test Cases/Super Admin/7. Verify that super admin is able to add property FAILED because (of) Unable to click on object 'Object Repository/7. Add property page/Select client' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/7. Add property page/Select client' located by 'By.xpath: //p[(text() = 'C1' or . = 'C1')]' not found)
+
+2018-07-16 11:21:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1. Verify that super admin is able to login with valid details' successfully
+
+2018-07-16 11:21:45 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1. Verify that super admin is able to login with valid details
+
+2018-07-16 11:21:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-16 11:21:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-16 11:21:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-16 11:21:50 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-16 11:21:50 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-16 11:21:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-16 11:21:51 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1. Log in page/Email field' is present
+
+2018-07-16 11:21:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:51 - [MESSAGE][PASSED] - Object 'Object Repository/1. Log in page/Email field' is present
+
+2018-07-16 11:21:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1. Log in page/Email field'
+
+2018-07-16 11:21:51 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1. Log in page/Email field'
+
+2018-07-16 11:21:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1. Log in page/Password field'
+
+2018-07-16 11:21:51 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1. Log in page/Password field'
+
+2018-07-16 11:21:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1. Log in page/Submit Button' is clicked on
+
+2018-07-16 11:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1. Log in page/Submit Button' is clicked on
+
+2018-07-16 11:21:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-16 11:21:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:53 - [MESSAGE][PASSED] - Object 'Object Repository/2. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-16 11:21:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1. Verify that super admin is able to login with valid details' successfully
+
+2018-07-16 11:21:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/2. Energy Advisors listing page/Top navigation properties' is present
+
+2018-07-16 11:21:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:54 - [MESSAGE][PASSED] - Object 'Object Repository/2. Energy Advisors listing page/Top navigation properties' is present
+
+2018-07-16 11:21:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2. Energy Advisors listing page/Top navigation properties' is clicked on
+
+2018-07-16 11:21:55 - [MESSAGE][PASSED] - Object: 'Object Repository/2. Energy Advisors listing page/Top navigation properties' is clicked on
+
+2018-07-16 11:21:55 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/6. Property listing page/Header Properties' is present
+
+2018-07-16 11:21:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:55 - [MESSAGE][PASSED] - Object 'Object Repository/6. Property listing page/Header Properties' is present
+
+2018-07-16 11:21:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/6. Property listing page/Add new property link' is clicked on
+
+2018-07-16 11:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/6. Property listing page/Add new property link' is clicked on
+
+2018-07-16 11:21:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/7. Add property page/Header add new property' is present
+
+2018-07-16 11:21:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:21:57 - [MESSAGE][PASSED] - Object 'Object Repository/7. Add property page/Header add new property' is present
+
+2018-07-16 11:21:57 - [TEST_STEP][PASSED] - sendKeys: Keys 'C1' sent to object: 'Object Repository/7. Add property page/Enter client'
+
+2018-07-16 11:21:57 - [MESSAGE][PASSED] - Keys 'C1' sent to object: 'Object Repository/7. Add property page/Enter client'
+
+2018-07-16 11:21:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/7. Add property page/Select client' is not present after 0 second(s)
+
+2018-07-16 11:21:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:22:28 - [MESSAGE][WARNING] - Object 'Object Repository/7. Add property page/Select client' is not present after 0 second(s)
+
+2018-07-16 11:22:28 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/7. Add property page/Select client' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/7. Add property page/Select client' located by 'By.xpath: //p[(text() = 'C1' or . = 'C1')]' not found)
+
+2018-07-16 11:22:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/7. Add property page/Select client' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/7. Add property page/Select client' located by 'By.xpath: //p[(text() = 'C1' or . = 'C1')]' not found)
+[[ATTACHMENT|C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\test\\20180716_111941\\1531720379405.png]]
+
+2018-07-16 11:22:59 - [TEST_STEP][PASSED] - sendKeys: Keys 'Oakston' sent to object: 'Object Repository/7. Add property page/Enter street1'
+
+2018-07-16 11:22:59 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-16 11:23:00 - [MESSAGE][PASSED] - Keys 'Oakston' sent to object: 'Object Repository/7. Add property page/Enter street1'
+
+2018-07-16 11:23:00 - [TEST_STEP][PASSED] - Statement - object1 = CustomKeywords.newPackage.TestDataGenerator.getRandomCity(): newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-16 11:23:00 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-16 11:23:00 - [TEST_STEP][PASSED] - sendKeys: Keys 'AutumnSprings' sent to object: 'Object Repository/7. Add property page/Enter city'
+
+2018-07-16 11:23:00 - [MESSAGE][PASSED] - Keys 'AutumnSprings' sent to object: 'Object Repository/7. Add property page/Enter city'
+
+2018-07-16 11:23:00 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A 1A1' sent to object: 'Object Repository/7. Add property page/Enter postal code'
+
+2018-07-16 11:23:00 - [MESSAGE][PASSED] - Keys 'A1A 1A1' sent to object: 'Object Repository/7. Add property page/Enter postal code'
+
+2018-07-16 11:23:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/7. Add property page/Select ownership' is clicked on
+
+2018-07-16 11:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/7. Add property page/Select ownership' is clicked on
+
+2018-07-16 11:23:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/7. Add property page/Select dwelling private' is clicked on
+
+2018-07-16 11:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/7. Add property page/Select dwelling private' is clicked on
+
+2018-07-16 11:23:00 - [TEST_STEP][PASSED] - sendKeys: Keys 'Terrell' sent to object: 'Object Repository/7. Add property page/Enter builder name'
+
+2018-07-16 11:23:00 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-16 11:23:00 - [MESSAGE][PASSED] - Keys 'Terrell' sent to object: 'Object Repository/7. Add property page/Enter builder name'
+
+2018-07-16 11:23:00 - [TEST_STEP][PASSED] - sendKeys: Keys '12345' sent to object: 'Object Repository/7. Add property page/Enter property tax roll'
+
+2018-07-16 11:23:00 - [MESSAGE][PASSED] - Keys '12345' sent to object: 'Object Repository/7. Add property page/Enter property tax roll'
+
+2018-07-16 11:23:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/7. Add property page/Add new property button' is clicked on
+
+2018-07-16 11:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/7. Add property page/Add new property button' is clicked on
+
+2018-07-16 11:23:01 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/6. Property listing page/Header Properties' is present
+
+2018-07-16 11:23:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-16 11:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/6. Property listing page/Header Properties' is present
+
+2018-07-16 11:23:01 - [TEST_STEP][PASSED] - Statement - option2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(6. Property listing page/First row city)): Text of object 'Object Repository/6. Property listing page/First row city' is: 'new jersey'
+
+2018-07-16 11:23:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/6. Property listing page/First row city' is: 'new jersey'
+
+2018-07-16 11:23:01 - [TEST_STEP][PASSED] - verifyMatch: null]]></system-out>
+         <system-err><![CDATA[2018-07-16 11:21:45 - [TEST_CASE][FAILED] - Test Cases/Super Admin/7. Verify that super admin is able to add property: Test Cases/Super Admin/7. Verify that super admin is able to add property FAILED because (of) Unable to click on object 'Object Repository/7. Add property page/Select client' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/7. Add property page/Select client' located by 'By.xpath: //p[(text() = 'C1' or . = 'C1')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-16 11:19:45 - [TEST_SUITE][FAILED] - test: Test Cases/Super Admin/7. Verify that super admin is able to add property FAILED because (of) Unable to click on object 'Object Repository/7. Add property page/Select client' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/7. Add property page/Select client' located by 'By.xpath: //p[(text() = 'C1' or . = 'C1')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-16 11:19:45 - [TEST_SUITE][FAILED] - test: Test Cases/Super Admin/7. Verify that super admin is able to add property FAILED because (of) Unable to click on object 'Object Repository/7. Add property page/Select client' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/7. Add property page/Select client' located by 'By.xpath: //p[(text() = 'C1' or . = 'C1')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

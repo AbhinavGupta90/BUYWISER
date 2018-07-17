@@ -1,0 +1,131 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Chrome 67.0.3396.99,,2018-07-16 11:19:45,2018-07-16 11:23:02,3m - 16.931s,FAILED
+,,,,,,
+Test Cases/Super Admin/1. Verify that super admin is able to login with valid details,Chrome 67.0.3396.99,Verify that super admin is able to login with valid details,2018-07-16 11:19:46,2018-07-16 11:20:22,36.459s,PASSED
+openBrowser,Chrome 67.0.3396.99,Open browser,2018-07-16 11:19:46,2018-07-16 11:19:54,8.201s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,Launch the URL,2018-07-16 11:19:54,2018-07-16 11:20:11,16.739s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,Maximize window,2018-07-16 11:20:11,2018-07-16 11:20:12,1.195s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for email field,2018-07-16 11:20:12,2018-07-16 11:20:12,0.212s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter email,2018-07-16 11:20:12,2018-07-16 11:20:13,0.763s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter password,2018-07-16 11:20:13,2018-07-16 11:20:13,0.154s,PASSED
+click,Chrome 67.0.3396.99,Click on submit button,2018-07-16 11:20:13,2018-07-16 11:20:22,8.774s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for header energy advisor,2018-07-16 11:20:22,2018-07-16 11:20:22,0.066s,PASSED
+,,,,,,
+Test Cases/Super Admin/2. Verify that super admin is able to add new energy advisor,Chrome 67.0.3396.99,Verify that admin is able to add new EA,2018-07-16 11:20:22,2018-07-16 11:20:52,30.277s,PASSED
+click,Chrome 67.0.3396.99,Click on add new account link,2018-07-16 11:20:22,2018-07-16 11:20:24,1.557s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for header create new advisor account,2018-07-16 11:20:24,2018-07-16 11:20:24,0.048s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter advisor identifier code,2018-07-16 11:20:24,2018-07-16 11:20:24,0.321s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter company name,2018-07-16 11:20:24,2018-07-16 11:20:25,0.254s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter first name,2018-07-16 11:20:25,2018-07-16 11:20:25,0.158s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter last name,2018-07-16 11:20:25,2018-07-16 11:20:25,0.180s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter business phone,2018-07-16 11:20:25,2018-07-16 11:20:25,0.162s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter home phone,2018-07-16 11:20:25,2018-07-16 11:20:25,0.164s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter mobile number,2018-07-16 11:20:25,2018-07-16 11:20:25,0.152s,PASSED
+Statement - object1 = CustomKeywords.newPackage.TestDataGenerator.getRandomEmail(),Chrome 67.0.3396.99,Generate random email and store in object1,2018-07-16 11:20:25,2018-07-16 11:20:25,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter email,2018-07-16 11:20:25,2018-07-16 11:20:26,0.401s,PASSED
+"Statement - println(""Email entered is "" + object1)",Chrome 67.0.3396.99,Get text of First object,2018-07-16 11:20:26,2018-07-16 11:20:26,0.003s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter street,2018-07-16 11:20:26,2018-07-16 11:20:26,0.525s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter City,2018-07-16 11:20:26,2018-07-16 11:20:26,0.169s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter postal code,2018-07-16 11:20:26,2018-07-16 11:20:27,0.129s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter postal code,2018-07-16 11:20:27,2018-07-16 11:20:27,0.073s,PASSED
+click,Chrome 67.0.3396.99,Select alternate address checkbox,2018-07-16 11:20:27,2018-07-16 11:20:27,0.169s,PASSED
+click,Chrome 67.0.3396.99,Click on create account button,2018-07-16 11:20:27,2018-07-16 11:20:28,0.897s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for header Energy Advisors,2018-07-16 11:20:28,2018-07-16 11:20:50,22.400s,PASSED
+Statement - object2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record email ID)),Chrome 67.0.3396.99,Get email of energy advisor,2018-07-16 11:20:50,2018-07-16 11:20:51,0.643s,PASSED
+verifyMatch,Chrome 67.0.3396.99,Compare text,2018-07-16 11:20:51,2018-07-16 11:20:51,0.085s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-16 11:20:51,2018-07-16 11:20:52,1.495s,PASSED
+,,,,,,
+Test Cases/Super Admin/3. Verify that super admin is able to search energy advisor,Chrome 67.0.3396.99,3. Verify that super admin is able to search energy advisor,2018-07-16 11:20:52,2018-07-16 11:21:02,9.241s,PASSED
+callTestCase,Chrome 67.0.3396.99,Call login test case,2018-07-16 11:20:53,2018-07-16 11:21:00,7.794s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for search field,2018-07-16 11:21:00,2018-07-16 11:21:00,0.043s,PASSED
+Statement - object1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record ID)),Chrome 67.0.3396.99,Get ID of first record,2018-07-16 11:21:00,2018-07-16 11:21:00,0.055s,PASSED
+Statement - object2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record name)),Chrome 67.0.3396.99,Get name of first record,2018-07-16 11:21:00,2018-07-16 11:21:00,0.047s,PASSED
+Statement - object3 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record company)),Chrome 67.0.3396.99,Get company of first record,2018-07-16 11:21:00,2018-07-16 11:21:01,0.046s,PASSED
+Statement - object4 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record email ID)),Chrome 67.0.3396.99,Get email ID of first record,2018-07-16 11:21:01,2018-07-16 11:21:01,0.043s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter email in search field,2018-07-16 11:21:01,2018-07-16 11:21:01,0.173s,PASSED
+click,Chrome 67.0.3396.99,Click on search button,2018-07-16 11:21:01,2018-07-16 11:21:01,0.123s,PASSED
+Statement - object5 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/Searched record email ID)),Chrome 67.0.3396.99,Get email ID of searched record,2018-07-16 11:21:01,2018-07-16 11:21:01,0.073s,PASSED
+verifyMatch,Chrome 67.0.3396.99,Compare text,2018-07-16 11:21:01,2018-07-16 11:21:01,0.002s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-16 11:21:01,2018-07-16 11:21:02,0.646s,PASSED
+,,,,,,
+Test Cases/Super Admin/4. Verify that super admin is able to filter energy advisor with status,Chrome 67.0.3396.99,4. Verify that super admin is able to filter energy advisor with status,2018-07-16 11:21:02,2018-07-16 11:21:10,8.264s,PASSED
+callTestCase,Chrome 67.0.3396.99,Call login test case,2018-07-16 11:21:02,2018-07-16 11:21:08,6.688s,PASSED
+click,Chrome 67.0.3396.99,Click on status filter,2018-07-16 11:21:08,2018-07-16 11:21:09,0.112s,PASSED
+click,Chrome 67.0.3396.99,Select active status,2018-07-16 11:21:09,2018-07-16 11:21:09,0.176s,PASSED
+Statement - object1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record status)),Chrome 67.0.3396.99,Get status of first record,2018-07-16 11:21:09,2018-07-16 11:21:09,0.057s,PASSED
+"Statement - bol = object1 == ""Active""",Chrome 67.0.3396.99,Verify the status of first record,2018-07-16 11:21:09,2018-07-16 11:21:09,0.000s,PASSED
+Statement - assert bol == true,Chrome 67.0.3396.99,Get result of comparison,2018-07-16 11:21:09,2018-07-16 11:21:09,0.002s,PASSED
+click,Chrome 67.0.3396.99,Click on status filter,2018-07-16 11:21:09,2018-07-16 11:21:09,0.047s,PASSED
+click,Chrome 67.0.3396.99,Select Inactive status,2018-07-16 11:21:09,2018-07-16 11:21:09,0.132s,PASSED
+Statement - object2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2. Energy Advisors listing page/First record status)),Chrome 67.0.3396.99,Get status of first record,2018-07-16 11:21:09,2018-07-16 11:21:09,0.034s,PASSED
+"Statement - bol1 = object2 == ""Inactive""",Chrome 67.0.3396.99,Verify the status of first record,2018-07-16 11:21:09,2018-07-16 11:21:09,0.000s,PASSED
+Statement - assert bol1 == true,Chrome 67.0.3396.99,Get result of comparison,2018-07-16 11:21:09,2018-07-16 11:21:09,0.001s,PASSED
+click,Chrome 67.0.3396.99,Click on status filter,2018-07-16 11:21:09,2018-07-16 11:21:09,0.049s,PASSED
+click,Chrome 67.0.3396.99,Select all status,2018-07-16 11:21:09,2018-07-16 11:21:09,0.132s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-16 11:21:09,2018-07-16 11:21:10,0.655s,PASSED
+,,,,,,
+Test Cases/Super Admin/5. Verify that super admin is able to navigate on next page of energy advisor list,Chrome 67.0.3396.99,5. Verify that super admin is able to navigate on next page of energy advisor list,2018-07-16 11:21:10,2018-07-16 11:21:18,7.759s,PASSED
+callTestCase,Chrome 67.0.3396.99,Call login test case,2018-07-16 11:21:10,2018-07-16 11:21:17,6.581s,PASSED
+scrollToElement,Chrome 67.0.3396.99,Scroll to bottom,2018-07-16 11:21:17,2018-07-16 11:21:17,0.052s,PASSED
+click,Chrome 67.0.3396.99,"Click on \""2\"" in pagination",2018-07-16 11:21:17,2018-07-16 11:21:17,0.260s,PASSED
+verifyElementVisible,Chrome 67.0.3396.99,Check left arrow is displayed,2018-07-16 11:21:17,2018-07-16 11:21:17,0.065s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-16 11:21:17,2018-07-16 11:21:18,0.636s,PASSED
+,,,,,,
+Test Cases/Super Admin/6. Verify that super admin is able to add new client,Chrome 67.0.3396.99,6. Verify that super admin is able to add new client,2018-07-16 11:21:18,2018-07-16 11:21:45,27.010s,PASSED
+callTestCase,Chrome 67.0.3396.99,Call login test case,2018-07-16 11:21:18,2018-07-16 11:21:24,6.469s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,"Wait for \""Client\"" in top navigation",2018-07-16 11:21:24,2018-07-16 11:21:24,0.042s,PASSED
+click,Chrome 67.0.3396.99,Click on client,2018-07-16 11:21:24,2018-07-16 11:21:26,1.515s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for add new client link,2018-07-16 11:21:26,2018-07-16 11:21:26,0.060s,PASSED
+click,Chrome 67.0.3396.99,Click on add new client link,2018-07-16 11:21:26,2018-07-16 11:21:27,1.222s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for header add new client,2018-07-16 11:21:27,2018-07-16 11:21:27,0.057s,PASSED
+Statement - object1 = CustomKeywords.newPackage.TestDataGenerator.getRandomFirstName(),Chrome 67.0.3396.99,Generate random business name and store in object1,2018-07-16 11:21:27,2018-07-16 11:21:27,0.000s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter business name,2018-07-16 11:21:27,2018-07-16 11:21:27,0.170s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter business phone,2018-07-16 11:21:27,2018-07-16 11:21:28,0.232s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter business email,2018-07-16 11:21:28,2018-07-16 11:21:28,0.482s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter business street,2018-07-16 11:21:28,2018-07-16 11:21:28,0.191s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter business city,2018-07-16 11:21:28,2018-07-16 11:21:29,0.275s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter business postal code,2018-07-16 11:21:29,2018-07-16 11:21:29,0.220s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter business postal code,2018-07-16 11:21:29,2018-07-16 11:21:29,0.048s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter contact person firstname,2018-07-16 11:21:29,2018-07-16 11:21:29,0.154s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter contact person lastname,2018-07-16 11:21:29,2018-07-16 11:21:29,0.168s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter contact person email,2018-07-16 11:21:29,2018-07-16 11:21:30,0.418s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter contact person role,2018-07-16 11:21:30,2018-07-16 11:21:30,0.208s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter contact person phone number,2018-07-16 11:21:30,2018-07-16 11:21:30,0.188s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter contact person mobile,2018-07-16 11:21:30,2018-07-16 11:21:30,0.187s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter contact person ext,2018-07-16 11:21:30,2018-07-16 11:21:30,0.139s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter evaluation property street,2018-07-16 11:21:30,2018-07-16 11:21:30,0.183s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter evaluation property city,2018-07-16 11:21:30,2018-07-16 11:21:31,0.255s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter evaluation property postal code,2018-07-16 11:21:31,2018-07-16 11:21:31,0.178s,PASSED
+click,Chrome 67.0.3396.99,Click on ownership drop-down,2018-07-16 11:21:31,2018-07-16 11:21:31,0.151s,PASSED
+click,Chrome 67.0.3396.99,Select dewlling private option,2018-07-16 11:21:31,2018-07-16 11:21:31,0.167s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter evaluation property builder name,2018-07-16 11:21:31,2018-07-16 11:21:31,0.171s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter evaluation property tax roll,2018-07-16 11:21:31,2018-07-16 11:21:32,0.136s,PASSED
+click,Chrome 67.0.3396.99,Click on add new client button,2018-07-16 11:21:32,2018-07-16 11:21:34,2.280s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for header clients,2018-07-16 11:21:34,2018-07-16 11:21:34,0.095s,PASSED
+Statement - object2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(4. Client listing page/First record name)),Chrome 67.0.3396.99,Get name of client,2018-07-16 11:21:34,2018-07-16 11:21:34,0.076s,PASSED
+verifyMatch,Chrome 67.0.3396.99,Compare text,2018-07-16 11:21:34,2018-07-16 11:21:34,0.002s,PASSED
+delay,Chrome 67.0.3396.99,,2018-07-16 11:21:34,2018-07-16 11:21:44,10.010s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-16 11:21:44,2018-07-16 11:21:45,0.645s,PASSED
+,,,,,,
+Test Cases/Super Admin/7. Verify that super admin is able to add property,Chrome 67.0.3396.99,6. Verify that super admin is able to add property,2018-07-16 11:21:45,2018-07-16 11:23:01,1m - 16.685s,FAILED
+callTestCase,Chrome 67.0.3396.99,Call login test case,2018-07-16 11:21:45,2018-07-16 11:21:53,8.631s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,"Wait for \""Properties\"" in top navigation",2018-07-16 11:21:53,2018-07-16 11:21:54,0.046s,PASSED
+click,Chrome 67.0.3396.99,Click on properties,2018-07-16 11:21:54,2018-07-16 11:21:55,1.828s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for header properties,2018-07-16 11:21:55,2018-07-16 11:21:55,0.040s,PASSED
+click,Chrome 67.0.3396.99,Click on add new property link,2018-07-16 11:21:55,2018-07-16 11:21:57,1.567s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for header add new property,2018-07-16 11:21:57,2018-07-16 11:21:57,0.026s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter client ID,2018-07-16 11:21:57,2018-07-16 11:21:57,0.114s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for client list,2018-07-16 11:21:57,2018-07-16 11:22:28,30.954s,PASSED
+click,Chrome 67.0.3396.99,Select client,2018-07-16 11:22:28,2018-07-16 11:22:59,31.344s,FAILED
+sendKeys,Chrome 67.0.3396.99,Enter street,2018-07-16 11:22:59,2018-07-16 11:23:00,0.174s,PASSED
+Statement - object1 = CustomKeywords.newPackage.TestDataGenerator.getRandomCity(),Chrome 67.0.3396.99,Generate random city and store in object1,2018-07-16 11:23:00,2018-07-16 11:23:00,0.001s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter city,2018-07-16 11:23:00,2018-07-16 11:23:00,0.250s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter postal code,2018-07-16 11:23:00,2018-07-16 11:23:00,0.173s,PASSED
+click,Chrome 67.0.3396.99,Click on ownership drop-down,2018-07-16 11:23:00,2018-07-16 11:23:00,0.098s,PASSED
+click,Chrome 67.0.3396.99,Select dewlling private option,2018-07-16 11:23:00,2018-07-16 11:23:00,0.103s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter builder name,2018-07-16 11:23:00,2018-07-16 11:23:00,0.163s,PASSED
+sendKeys,Chrome 67.0.3396.99,Enter property tax roll,2018-07-16 11:23:00,2018-07-16 11:23:00,0.145s,PASSED
+click,Chrome 67.0.3396.99,Click on add new property button,2018-07-16 11:23:00,2018-07-16 11:23:01,0.706s,PASSED
+waitForElementPresent,Chrome 67.0.3396.99,Wait for header properties,2018-07-16 11:23:01,2018-07-16 11:23:01,0.037s,PASSED
+Statement - option2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(6. Property listing page/First row city)),Chrome 67.0.3396.99,Get city of property,2018-07-16 11:23:01,2018-07-16 11:23:01,0.068s,PASSED
+verifyMatch,Chrome 67.0.3396.99,Compare text,2018-07-16 11:23:01,2018-07-16 11:23:01,0.001s,PASSED

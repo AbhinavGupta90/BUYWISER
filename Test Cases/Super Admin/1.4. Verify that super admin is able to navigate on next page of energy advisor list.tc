@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>5. Verify that super admin is able to navigate on next page of energy advisor list</description>
+   <name>1.4. Verify that super admin is able to navigate on next page of energy advisor list</name>
+   <tag>Next page, Energy advisor list</tag>
+   <comment></comment>
+   <testCaseGuid>dc4c6a1f-b291-4302-8505-cf97ce0e3b70</testCaseGuid>
+</TestCaseEntity>

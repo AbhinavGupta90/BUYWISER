@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>3. Verify that super admin is able to search energy advisor</description>
+   <name>1.2. Verify that super admin is able to search energy advisor</name>
+   <tag>search, energy advisor</tag>
+   <comment></comment>
+   <testCaseGuid>6b47cb09-a234-443e-91c6-de1344649c09</testCaseGuid>
+</TestCaseEntity>

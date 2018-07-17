@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>6. Verify that super admin is able to add property</description>
+   <name>1.6. Verify that super admin is able to add property</name>
+   <tag>Add, property</tag>
+   <comment></comment>
+   <testCaseGuid>7f31cfb3-f053-4319-ad79-3669dae40183</testCaseGuid>
+</TestCaseEntity>

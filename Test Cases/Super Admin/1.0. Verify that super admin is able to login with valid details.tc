@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that super admin is able to login with valid details</description>
+   <name>1.0. Verify that super admin is able to login with valid details</name>
+   <tag>Super Admin, Login</tag>
+   <comment></comment>
+   <testCaseGuid>85a46945-095c-45ff-839f-b7116bbdad8a</testCaseGuid>
+</TestCaseEntity>

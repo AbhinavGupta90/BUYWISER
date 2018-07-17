@@ -1,0 +1,1887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="304" tests="8" failures="2" errors="0">
+   <testsuite name="New Test Suite" tests="8" failures="2" errors="0" time="304" timestamp="2018-07-17 18:05:29" hostname="abhinav.gupta - wks227.nsi.lab" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527"/>
+         <property name="logFiles" value="C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831087887.png, C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831119540.png, C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831157572.png, C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831188834.png, C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831225837.png, C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831226440.png, C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831227682.png, C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831228104.png"/>
+         <property name="hostName" value="abhinav.gupta - wks227.nsi.lab"/>
+         <property name="os" value="Windows 8.1 32bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.16.14.121"/>
+         <property name="sessionId" value="fb15b0106a1bbb3bb28cdd00ca4b5237"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details" classname="Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details" status="PASSED">
+         <system-out><![CDATA[2018-07-17 18:05:30 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details
+
+2018-07-17 18:05:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-17 18:05:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-17 18:05:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:05:35 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:05:35 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-17 18:05:36 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-17 18:05:36 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:05:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:05:36 - [MESSAGE][PASSED] - Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:05:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:05:36 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:05:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:05:37 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:05:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:05:40 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:05:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:05:40 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/1.1. Verify that super admin is able to add new energy advisor" classname="Test Cases/Super Admin/1.1. Verify that super admin is able to add new energy advisor" status="PASSED">
+         <system-out><![CDATA[2018-07-17 18:05:40 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.1. Verify that super admin is able to add new energy advisor: Test Cases/Super Admin/1.1. Verify that super admin is able to add new energy advisor
+
+2018-07-17 18:05:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:05:41 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details
+
+2018-07-17 18:05:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-17 18:05:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-17 18:05:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-17 18:05:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:05:47 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:05:47 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-17 18:05:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-17 18:05:48 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:05:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:05:48 - [MESSAGE][PASSED] - Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:05:48 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:05:48 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:05:48 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:05:48 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:05:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:05:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:05:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:05:49 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:05:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:05:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Add New Account link' is clicked on
+
+2018-07-17 18:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Add New Account link' is clicked on
+
+2018-07-17 18:05:50 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.2. Add Energy Advisor page/Header create new advisor account' is present
+
+2018-07-17 18:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/1.2. Add Energy Advisor page/Header create new advisor account' is present
+
+2018-07-17 18:05:50 - [TEST_STEP][PASSED] - sendKeys: Keys '5Ut' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Advisor Identifier Code'
+
+2018-07-17 18:05:50 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomHeading is PASSED
+
+2018-07-17 18:05:50 - [MESSAGE][PASSED] - Keys '5Ut' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Advisor Identifier Code'
+
+2018-07-17 18:05:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'Benny' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Company Name'
+
+2018-07-17 18:05:50 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-17 18:05:50 - [MESSAGE][PASSED] - Keys 'Benny' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Company Name'
+
+2018-07-17 18:05:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'Anna' sent to object: 'Object Repository/1.2. Add Energy Advisor page/First Name'
+
+2018-07-17 18:05:50 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-17 18:05:50 - [MESSAGE][PASSED] - Keys 'Anna' sent to object: 'Object Repository/1.2. Add Energy Advisor page/First Name'
+
+2018-07-17 18:05:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'Brennan' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Last Name'
+
+2018-07-17 18:05:50 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomLastName is PASSED
+
+2018-07-17 18:05:50 - [MESSAGE][PASSED] - Keys 'Brennan' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Last Name'
+
+2018-07-17 18:05:50 - [TEST_STEP][PASSED] - sendKeys: Keys '9876543210' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Business Phone'
+
+2018-07-17 18:05:50 - [MESSAGE][PASSED] - Keys '9876543210' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Business Phone'
+
+2018-07-17 18:05:50 - [TEST_STEP][PASSED] - sendKeys: Keys '9876543210' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Home Phone'
+
+2018-07-17 18:05:51 - [MESSAGE][PASSED] - Keys '9876543210' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Home Phone'
+
+2018-07-17 18:05:51 - [TEST_STEP][PASSED] - sendKeys: Keys '9876543210' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Mobile Number'
+
+2018-07-17 18:05:51 - [MESSAGE][PASSED] - Keys '9876543210' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Mobile Number'
+
+2018-07-17 18:05:51 - [TEST_STEP][PASSED] - sendKeys: Keys '12345' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Extension'
+
+2018-07-17 18:05:51 - [MESSAGE][PASSED] - Keys '12345' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Extension'
+
+2018-07-17 18:05:51 - [TEST_STEP][PASSED] - Statement - object1 = CustomKeywords.newPackage.TestDataGenerator.getRandomEmail(): newPackage.TestDataGenerator.getRandomEmail is PASSED
+
+2018-07-17 18:05:51 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomEmail is PASSED
+
+2018-07-17 18:05:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'bruno.bullock@example.com' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Email Address'
+
+2018-07-17 18:05:51 - [MESSAGE][PASSED] - Keys 'bruno.bullock@example.com' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Email Address'
+
+2018-07-17 18:05:51 - [TEST_STEP][PASSED] - Statement - println("Email entered is " + object1): null
+
+2018-07-17 18:05:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'PalletTown' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Street'
+
+2018-07-17 18:05:51 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-17 18:05:51 - [MESSAGE][PASSED] - Keys 'PalletTown' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Street'
+
+2018-07-17 18:05:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'TalkingLeaves' sent to object: 'Object Repository/1.2. Add Energy Advisor page/City'
+
+2018-07-17 18:05:51 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-17 18:05:51 - [MESSAGE][PASSED] - Keys 'TalkingLeaves' sent to object: 'Object Repository/1.2. Add Energy Advisor page/City'
+
+2018-07-17 18:05:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A 1A1' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Postal Code'
+
+2018-07-17 18:05:52 - [MESSAGE][PASSED] - Keys 'A1A 1A1' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Postal Code'
+
+2018-07-17 18:05:52 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A 1A1' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Postal Code'
+
+2018-07-17 18:05:52 - [MESSAGE][PASSED] - Keys 'A1A 1A1' sent to object: 'Object Repository/1.2. Add Energy Advisor page/Postal Code'
+
+2018-07-17 18:05:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.2. Add Energy Advisor page/Alternate Address checkbox' is clicked on
+
+2018-07-17 18:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1.2. Add Energy Advisor page/Alternate Address checkbox' is clicked on
+
+2018-07-17 18:05:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.2. Add Energy Advisor page/Create Account button' is clicked on
+
+2018-07-17 18:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1.2. Add Energy Advisor page/Create Account button' is clicked on
+
+2018-07-17 18:05:58 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:05:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:05:58 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:05:58 - [TEST_STEP][PASSED] - Statement - object2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(1.1. Energy Advisors listing page/First record email ID)): Text of object 'Object Repository/1.1. Energy Advisors listing page/First record email ID' is: 'bruno.bullock@example.com'
+
+2018-07-17 18:05:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/1.1. Energy Advisors listing page/First record email ID' is: 'bruno.bullock@example.com'
+
+2018-07-17 18:05:58 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'bruno.bullock@example.com' and expected text 'bruno.bullock@example.com' are matched 
+
+2018-07-17 18:05:58 - [MESSAGE][PASSED] - Actual text 'bruno.bullock@example.com' and expected text 'bruno.bullock@example.com' are matched 
+
+2018-07-17 18:05:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-17 18:05:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/1.2. Verify that super admin is able to search energy advisor" classname="Test Cases/Super Admin/1.2. Verify that super admin is able to search energy advisor" status="PASSED">
+         <system-out><![CDATA[2018-07-17 18:05:59 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.2. Verify that super admin is able to search energy advisor: Test Cases/Super Admin/1.2. Verify that super admin is able to search energy advisor
+
+2018-07-17 18:06:00 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:06:00 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details
+
+2018-07-17 18:06:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-17 18:06:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-17 18:06:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:06:04 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:06:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-17 18:06:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-17 18:06:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:06:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:05 - [MESSAGE][PASSED] - Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:06:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:06:05 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:06:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:06:05 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:06:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:06:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:06:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:06 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:06:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:06:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Search Field' is present
+
+2018-07-17 18:06:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:06 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Search Field' is present
+
+2018-07-17 18:06:06 - [TEST_STEP][PASSED] - Statement - object1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(1.1. Energy Advisors listing page/First record ID)): Text of object 'Object Repository/1.1. Energy Advisors listing page/First record ID' is: 'C1'
+
+2018-07-17 18:06:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/1.1. Energy Advisors listing page/First record ID' is: 'C1'
+
+2018-07-17 18:06:06 - [TEST_STEP][PASSED] - Statement - object2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(1.1. Energy Advisors listing page/First record name)): Text of object 'Object Repository/1.1. Energy Advisors listing page/First record name' is: 'Anna Brennan'
+
+2018-07-17 18:06:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/1.1. Energy Advisors listing page/First record name' is: 'Anna Brennan'
+
+2018-07-17 18:06:06 - [TEST_STEP][PASSED] - Statement - object3 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(1.1. Energy Advisors listing page/First record company)): Text of object 'Object Repository/1.1. Energy Advisors listing page/First record company' is: 'Benny'
+
+2018-07-17 18:06:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/1.1. Energy Advisors listing page/First record company' is: 'Benny'
+
+2018-07-17 18:06:06 - [TEST_STEP][PASSED] - Statement - object4 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(1.1. Energy Advisors listing page/First record email ID)): Text of object 'Object Repository/1.1. Energy Advisors listing page/First record email ID' is: 'bruno.bullock@example.com'
+
+2018-07-17 18:06:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/1.1. Energy Advisors listing page/First record email ID' is: 'bruno.bullock@example.com'
+
+2018-07-17 18:06:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'bruno.bullock@example.com' sent to object: 'Object Repository/1.1. Energy Advisors listing page/Search Field'
+
+2018-07-17 18:06:07 - [MESSAGE][PASSED] - Keys 'bruno.bullock@example.com' sent to object: 'Object Repository/1.1. Energy Advisors listing page/Search Field'
+
+2018-07-17 18:06:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Search button' is clicked on
+
+2018-07-17 18:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Search button' is clicked on
+
+2018-07-17 18:06:07 - [TEST_STEP][PASSED] - Statement - object5 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(1.1. Energy Advisors listing page/Searched record email ID)): Text of object 'Object Repository/1.1. Energy Advisors listing page/Searched record email ID' is: 'bruno.bullock@example.com'
+
+2018-07-17 18:06:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/1.1. Energy Advisors listing page/Searched record email ID' is: 'bruno.bullock@example.com'
+
+2018-07-17 18:06:07 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'bruno.bullock@example.com' and expected text 'bruno.bullock@example.com' are matched 
+
+2018-07-17 18:06:07 - [MESSAGE][PASSED] - Actual text 'bruno.bullock@example.com' and expected text 'bruno.bullock@example.com' are matched 
+
+2018-07-17 18:06:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-17 18:06:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/1.3. Verify that super admin is able to filter energy advisor with status" classname="Test Cases/Super Admin/1.3. Verify that super admin is able to filter energy advisor with status" status="PASSED">
+         <system-out><![CDATA[2018-07-17 18:06:07 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.3. Verify that super admin is able to filter energy advisor with status: Test Cases/Super Admin/1.3. Verify that super admin is able to filter energy advisor with status
+
+2018-07-17 18:06:08 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:06:08 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details
+
+2018-07-17 18:06:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-17 18:06:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-17 18:06:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:06:11 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:06:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-17 18:06:13 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-17 18:06:13 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:06:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:13 - [MESSAGE][PASSED] - Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:06:13 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:06:13 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:06:13 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:06:13 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:06:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:06:14 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:06:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:14 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:06:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:06:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Filter by status' is clicked on
+
+2018-07-17 18:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Filter by status' is clicked on
+
+2018-07-17 18:06:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Filter by status active' is clicked on
+
+2018-07-17 18:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Filter by status active' is clicked on
+
+2018-07-17 18:06:15 - [TEST_STEP][PASSED] - Statement - object1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(1.1. Energy Advisors listing page/First record status)): Text of object 'Object Repository/1.1. Energy Advisors listing page/First record status' is: 'Active'
+
+2018-07-17 18:06:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/1.1. Energy Advisors listing page/First record status' is: 'Active'
+
+2018-07-17 18:06:15 - [TEST_STEP][PASSED] - Statement - bol = object1 == "Active": null
+
+2018-07-17 18:06:15 - [TEST_STEP][PASSED] - Statement - assert bol == true: null
+
+2018-07-17 18:06:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Filter by status' is clicked on
+
+2018-07-17 18:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Filter by status' is clicked on
+
+2018-07-17 18:06:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Filter by status inactive' is clicked on
+
+2018-07-17 18:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Filter by status inactive' is clicked on
+
+2018-07-17 18:06:15 - [TEST_STEP][PASSED] - Statement - object2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(1.1. Energy Advisors listing page/First record status)): Text of object 'Object Repository/1.1. Energy Advisors listing page/First record status' is: 'Inactive'
+
+2018-07-17 18:06:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/1.1. Energy Advisors listing page/First record status' is: 'Inactive'
+
+2018-07-17 18:06:15 - [TEST_STEP][PASSED] - Statement - bol1 = object2 == "Inactive": null
+
+2018-07-17 18:06:15 - [TEST_STEP][PASSED] - Statement - assert bol1 == true: null
+
+2018-07-17 18:06:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Filter by status' is clicked on
+
+2018-07-17 18:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Filter by status' is clicked on
+
+2018-07-17 18:06:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Filter by status all' is clicked on
+
+2018-07-17 18:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Filter by status all' is clicked on
+
+2018-07-17 18:06:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-17 18:06:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/1.4. Verify that super admin is able to navigate on next page of energy advisor list" classname="Test Cases/Super Admin/1.4. Verify that super admin is able to navigate on next page of energy advisor list" status="PASSED">
+         <system-out><![CDATA[2018-07-17 18:06:16 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.4. Verify that super admin is able to navigate on next page of energy advisor list: Test Cases/Super Admin/1.4. Verify that super admin is able to navigate on next page of energy advisor list
+
+2018-07-17 18:06:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:06:16 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details
+
+2018-07-17 18:06:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-17 18:06:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-17 18:06:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:06:21 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:06:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-17 18:06:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-17 18:06:22 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:06:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:22 - [MESSAGE][PASSED] - Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:06:22 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:06:22 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:06:22 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:06:22 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:06:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:06:23 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:06:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:06:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:06:23 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/1.1. Energy Advisors listing page/Second listing page' successfully
+
+2018-07-17 18:06:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/1.1. Energy Advisors listing page/Second listing page' successfully
+
+2018-07-17 18:06:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Second listing page' is clicked on
+
+2018-07-17 18:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Second listing page' is clicked on
+
+2018-07-17 18:06:23 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/1.1. Energy Advisors listing page/Pagination left arrow' is visible
+
+2018-07-17 18:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Pagination left arrow' is visible
+
+2018-07-17 18:06:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-17 18:06:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/1.5. Verify that super admin is able to add new client" classname="Test Cases/Super Admin/1.5. Verify that super admin is able to add new client" status="PASSED">
+         <system-out><![CDATA[2018-07-17 18:06:24 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.5. Verify that super admin is able to add new client: Test Cases/Super Admin/1.5. Verify that super admin is able to add new client
+
+2018-07-17 18:06:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:06:24 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details
+
+2018-07-17 18:06:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-17 18:06:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-17 18:06:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:06:28 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:06:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-17 18:06:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-17 18:06:29 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:06:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:29 - [MESSAGE][PASSED] - Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:06:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:06:29 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:06:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:06:30 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:06:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:06:32 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:32 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:06:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:06:32 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Top navigation clients ' is present
+
+2018-07-17 18:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:32 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Top navigation clients ' is present
+
+2018-07-17 18:06:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Top navigation clients ' is clicked on
+
+2018-07-17 18:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Top navigation clients ' is clicked on
+
+2018-07-17 18:06:32 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.3. Client listing page/Add new client link' is present
+
+2018-07-17 18:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:32 - [MESSAGE][PASSED] - Object 'Object Repository/1.3. Client listing page/Add new client link' is present
+
+2018-07-17 18:06:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.3. Client listing page/Add new client link' is clicked on
+
+2018-07-17 18:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1.3. Client listing page/Add new client link' is clicked on
+
+2018-07-17 18:06:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.4. Add Client page/Header add new client' is present
+
+2018-07-17 18:06:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:33 - [MESSAGE][PASSED] - Object 'Object Repository/1.4. Add Client page/Header add new client' is present
+
+2018-07-17 18:06:33 - [TEST_STEP][PASSED] - Statement - object1 = CustomKeywords.newPackage.TestDataGenerator.getRandomFirstName(): newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-17 18:06:33 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-17 18:06:33 - [TEST_STEP][PASSED] - sendKeys: Keys 'Darryl' sent to object: 'Object Repository/1.4. Add Client page/Business name'
+
+2018-07-17 18:06:33 - [MESSAGE][PASSED] - Keys 'Darryl' sent to object: 'Object Repository/1.4. Add Client page/Business name'
+
+2018-07-17 18:06:33 - [TEST_STEP][PASSED] - sendKeys: Keys '9876543210' sent to object: 'Object Repository/1.4. Add Client page/Business phone'
+
+2018-07-17 18:06:33 - [MESSAGE][PASSED] - Keys '9876543210' sent to object: 'Object Repository/1.4. Add Client page/Business phone'
+
+2018-07-17 18:06:33 - [TEST_STEP][PASSED] - sendKeys: Keys 'annie.romero@example.com' sent to object: 'Object Repository/1.4. Add Client page/Business email'
+
+2018-07-17 18:06:33 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomEmail is PASSED
+
+2018-07-17 18:06:33 - [MESSAGE][PASSED] - Keys 'annie.romero@example.com' sent to object: 'Object Repository/1.4. Add Client page/Business email'
+
+2018-07-17 18:06:33 - [TEST_STEP][PASSED] - sendKeys: Keys 'Stepford' sent to object: 'Object Repository/1.4. Add Client page/Business details street'
+
+2018-07-17 18:06:33 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-17 18:06:34 - [MESSAGE][PASSED] - Keys 'Stepford' sent to object: 'Object Repository/1.4. Add Client page/Business details street'
+
+2018-07-17 18:06:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'BlackstoneValley' sent to object: 'Object Repository/1.4. Add Client page/Business details city'
+
+2018-07-17 18:06:34 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-17 18:06:34 - [MESSAGE][PASSED] - Keys 'BlackstoneValley' sent to object: 'Object Repository/1.4. Add Client page/Business details city'
+
+2018-07-17 18:06:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A 1A1' sent to object: 'Object Repository/1.4. Add Client page/Business details postal code'
+
+2018-07-17 18:06:34 - [MESSAGE][PASSED] - Keys 'A1A 1A1' sent to object: 'Object Repository/1.4. Add Client page/Business details postal code'
+
+2018-07-17 18:06:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A 1A1' sent to object: 'Object Repository/1.4. Add Client page/Business details postal code'
+
+2018-07-17 18:06:34 - [MESSAGE][PASSED] - Keys 'A1A 1A1' sent to object: 'Object Repository/1.4. Add Client page/Business details postal code'
+
+2018-07-17 18:06:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'Suzette' sent to object: 'Object Repository/1.4. Add Client page/Contact person firstname'
+
+2018-07-17 18:06:34 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-17 18:06:34 - [MESSAGE][PASSED] - Keys 'Suzette' sent to object: 'Object Repository/1.4. Add Client page/Contact person firstname'
+
+2018-07-17 18:06:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'Burris' sent to object: 'Object Repository/1.4. Add Client page/Contact person lastname'
+
+2018-07-17 18:06:34 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomLastName is PASSED
+
+2018-07-17 18:06:34 - [MESSAGE][PASSED] - Keys 'Burris' sent to object: 'Object Repository/1.4. Add Client page/Contact person lastname'
+
+2018-07-17 18:06:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'trina.wagner@example.com' sent to object: 'Object Repository/1.4. Add Client page/Contact person email'
+
+2018-07-17 18:06:34 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomEmail is PASSED
+
+2018-07-17 18:06:35 - [MESSAGE][PASSED] - Keys 'trina.wagner@example.com' sent to object: 'Object Repository/1.4. Add Client page/Contact person email'
+
+2018-07-17 18:06:35 - [TEST_STEP][PASSED] - sendKeys: Keys 'Swanson' sent to object: 'Object Repository/1.4. Add Client page/Contact person role'
+
+2018-07-17 18:06:35 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomLastName is PASSED
+
+2018-07-17 18:06:35 - [MESSAGE][PASSED] - Keys 'Swanson' sent to object: 'Object Repository/1.4. Add Client page/Contact person role'
+
+2018-07-17 18:06:35 - [TEST_STEP][PASSED] - sendKeys: Keys '9876543210' sent to object: 'Object Repository/1.4. Add Client page/Contact person phone number'
+
+2018-07-17 18:06:35 - [MESSAGE][PASSED] - Keys '9876543210' sent to object: 'Object Repository/1.4. Add Client page/Contact person phone number'
+
+2018-07-17 18:06:35 - [TEST_STEP][PASSED] - sendKeys: Keys '9876543210' sent to object: 'Object Repository/1.4. Add Client page/Contact person mobile'
+
+2018-07-17 18:06:35 - [MESSAGE][PASSED] - Keys '9876543210' sent to object: 'Object Repository/1.4. Add Client page/Contact person mobile'
+
+2018-07-17 18:06:35 - [TEST_STEP][PASSED] - sendKeys: Keys '12345' sent to object: 'Object Repository/1.4. Add Client page/Contact person ext'
+
+2018-07-17 18:06:36 - [MESSAGE][PASSED] - Keys '12345' sent to object: 'Object Repository/1.4. Add Client page/Contact person ext'
+
+2018-07-17 18:06:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'ElDorado' sent to object: 'Object Repository/1.4. Add Client page/Evaluation property street'
+
+2018-07-17 18:06:36 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-17 18:06:36 - [MESSAGE][PASSED] - Keys 'ElDorado' sent to object: 'Object Repository/1.4. Add Client page/Evaluation property street'
+
+2018-07-17 18:06:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'GoldenCreek' sent to object: 'Object Repository/1.4. Add Client page/Evaluation property city'
+
+2018-07-17 18:06:36 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-17 18:06:36 - [MESSAGE][PASSED] - Keys 'GoldenCreek' sent to object: 'Object Repository/1.4. Add Client page/Evaluation property city'
+
+2018-07-17 18:06:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A 1A1' sent to object: 'Object Repository/1.4. Add Client page/Evaluation property postal code'
+
+2018-07-17 18:06:36 - [MESSAGE][PASSED] - Keys 'A1A 1A1' sent to object: 'Object Repository/1.4. Add Client page/Evaluation property postal code'
+
+2018-07-17 18:06:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.4. Add Client page/Evaluation property select ownership' is clicked on
+
+2018-07-17 18:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1.4. Add Client page/Evaluation property select ownership' is clicked on
+
+2018-07-17 18:06:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.4. Add Client page/Evaluation property select dwelling private' is clicked on
+
+2018-07-17 18:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1.4. Add Client page/Evaluation property select dwelling private' is clicked on
+
+2018-07-17 18:06:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'Pedro' sent to object: 'Object Repository/1.4. Add Client page/Evaluation property builder name'
+
+2018-07-17 18:06:36 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-17 18:06:37 - [MESSAGE][PASSED] - Keys 'Pedro' sent to object: 'Object Repository/1.4. Add Client page/Evaluation property builder name'
+
+2018-07-17 18:06:37 - [TEST_STEP][PASSED] - sendKeys: Keys '12345' sent to object: 'Object Repository/1.4. Add Client page/Evaluation property tax roll'
+
+2018-07-17 18:06:37 - [MESSAGE][PASSED] - Keys '12345' sent to object: 'Object Repository/1.4. Add Client page/Evaluation property tax roll'
+
+2018-07-17 18:06:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.4. Add Client page/Add new client button' is clicked on
+
+2018-07-17 18:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.4. Add Client page/Add new client button' is clicked on
+
+2018-07-17 18:06:37 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.3. Client listing page/Add new client link' is present
+
+2018-07-17 18:06:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:37 - [MESSAGE][PASSED] - Object 'Object Repository/1.3. Client listing page/Add new client link' is present
+
+2018-07-17 18:06:37 - [TEST_STEP][PASSED] - Statement - object2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(1.3. Client listing page/First record name)): Text of object 'Object Repository/1.3. Client listing page/First record name' is: 'Darryl'
+
+2018-07-17 18:06:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/1.3. Client listing page/First record name' is: 'Darryl'
+
+2018-07-17 18:06:37 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Darryl' and expected text 'Darryl' are matched 
+
+2018-07-17 18:06:37 - [MESSAGE][PASSED] - Actual text 'Darryl' and expected text 'Darryl' are matched 
+
+2018-07-17 18:06:37 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-07-17 18:06:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-07-17 18:06:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-17 18:06:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/1.6. Verify that super admin is able to add property" classname="Test Cases/Super Admin/1.6. Verify that super admin is able to add property" status="PASSED">
+         <system-out><![CDATA[2018-07-17 18:06:48 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.6. Verify that super admin is able to add property: Test Cases/Super Admin/1.6. Verify that super admin is able to add property
+
+2018-07-17 18:06:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:06:48 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details
+
+2018-07-17 18:06:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-17 18:06:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-17 18:06:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:06:52 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:06:52 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-17 18:06:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-17 18:06:54 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:06:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:06:54 - [MESSAGE][PASSED] - Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:06:54 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:06:54 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:06:54 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:06:54 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:06:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:07:01 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:07:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:07:01 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:07:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:07:01 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Top navigation properties' is present
+
+2018-07-17 18:07:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:07:01 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Top navigation properties' is present
+
+2018-07-17 18:07:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Top navigation properties' is clicked on
+
+2018-07-17 18:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Top navigation properties' is clicked on
+
+2018-07-17 18:07:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.5. Property listing page/Header Properties' is present
+
+2018-07-17 18:07:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:07:02 - [MESSAGE][PASSED] - Object 'Object Repository/1.5. Property listing page/Header Properties' is present
+
+2018-07-17 18:07:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.5. Property listing page/Add new property link' is clicked on
+
+2018-07-17 18:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/1.5. Property listing page/Add new property link' is clicked on
+
+2018-07-17 18:07:03 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.6. Add property page/Header add new property' is present
+
+2018-07-17 18:07:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:07:03 - [MESSAGE][PASSED] - Object 'Object Repository/1.6. Add property page/Header add new property' is present
+
+2018-07-17 18:07:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'C1' sent to object: 'Object Repository/1.6. Add property page/Enter client'
+
+2018-07-17 18:07:03 - [MESSAGE][PASSED] - Keys 'C1' sent to object: 'Object Repository/1.6. Add property page/Enter client'
+
+2018-07-17 18:07:03 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.6. Add property page/Select client' is present
+
+2018-07-17 18:07:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:07:03 - [MESSAGE][PASSED] - Object 'Object Repository/1.6. Add property page/Select client' is present
+
+2018-07-17 18:07:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.6. Add property page/Select client' is clicked on
+
+2018-07-17 18:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1.6. Add property page/Select client' is clicked on
+
+2018-07-17 18:07:04 - [TEST_STEP][PASSED] - sendKeys: Keys 'Blackstone' sent to object: 'Object Repository/1.6. Add property page/Enter street1'
+
+2018-07-17 18:07:04 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-17 18:07:04 - [MESSAGE][PASSED] - Keys 'Blackstone' sent to object: 'Object Repository/1.6. Add property page/Enter street1'
+
+2018-07-17 18:07:04 - [TEST_STEP][PASSED] - Statement - object1 = CustomKeywords.newPackage.TestDataGenerator.getRandomCity(): newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-17 18:07:04 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-17 18:07:04 - [TEST_STEP][PASSED] - sendKeys: Keys 'RanchoCordova' sent to object: 'Object Repository/1.6. Add property page/Enter city'
+
+2018-07-17 18:07:04 - [MESSAGE][PASSED] - Keys 'RanchoCordova' sent to object: 'Object Repository/1.6. Add property page/Enter city'
+
+2018-07-17 18:07:04 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A 1A1' sent to object: 'Object Repository/1.6. Add property page/Enter postal code'
+
+2018-07-17 18:07:04 - [MESSAGE][PASSED] - Keys 'A1A 1A1' sent to object: 'Object Repository/1.6. Add property page/Enter postal code'
+
+2018-07-17 18:07:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.6. Add property page/Select ownership' is clicked on
+
+2018-07-17 18:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/1.6. Add property page/Select ownership' is clicked on
+
+2018-07-17 18:07:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.6. Add property page/Select dwelling private' is clicked on
+
+2018-07-17 18:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1.6. Add property page/Select dwelling private' is clicked on
+
+2018-07-17 18:07:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'Peter' sent to object: 'Object Repository/1.6. Add property page/Enter builder name'
+
+2018-07-17 18:07:05 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-17 18:07:05 - [MESSAGE][PASSED] - Keys 'Peter' sent to object: 'Object Repository/1.6. Add property page/Enter builder name'
+
+2018-07-17 18:07:05 - [TEST_STEP][PASSED] - sendKeys: Keys '12345' sent to object: 'Object Repository/1.6. Add property page/Enter property tax roll'
+
+2018-07-17 18:07:05 - [MESSAGE][PASSED] - Keys '12345' sent to object: 'Object Repository/1.6. Add property page/Enter property tax roll'
+
+2018-07-17 18:07:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.6. Add property page/Add new property button' is clicked on
+
+2018-07-17 18:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/1.6. Add property page/Add new property button' is clicked on
+
+2018-07-17 18:07:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.5. Property listing page/Header Properties' is present
+
+2018-07-17 18:07:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/1.5. Property listing page/Header Properties' is present
+
+2018-07-17 18:07:05 - [TEST_STEP][PASSED] - Statement - object2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(1.5. Property listing page/First row city)): Text of object 'Object Repository/1.5. Property listing page/First row city' is: 'RanchoCordova'
+
+2018-07-17 18:07:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/1.5. Property listing page/First row city' is: 'RanchoCordova'
+
+2018-07-17 18:07:06 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'RanchoCordova' and expected text 'RanchoCordova' are matched 
+
+2018-07-17 18:07:06 - [MESSAGE][PASSED] - Actual text 'RanchoCordova' and expected text 'RanchoCordova' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/1.7. Verify that super admin is able to add assessment general form" classname="Test Cases/Super Admin/1.7. Verify that super admin is able to add assessment general form" status="PASSED">
+         <system-out><![CDATA[2018-07-17 18:07:06 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.7. Verify that super admin is able to add assessment general form: Test Cases/Super Admin/1.7. Verify that super admin is able to add assessment general form
+
+2018-07-17 18:07:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:07:06 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details
+
+2018-07-17 18:07:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-17 18:07:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-17 18:07:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-17 18:07:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:07:10 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:07:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-17 18:07:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-17 18:07:11 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:07:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:07:11 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:07:11 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:07:11 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:07:12 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:07:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:07:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:07:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:07:15 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:07:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:07:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Top navigation assessments' is present
+
+2018-07-17 18:07:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:07:15 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Top navigation assessments' is present
+
+2018-07-17 18:07:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Top navigation assessments' is clicked on
+
+2018-07-17 18:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Top navigation assessments' is clicked on
+
+2018-07-17 18:07:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.7. Assessment listing page/Header assessments' is present
+
+2018-07-17 18:07:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:07:16 - [MESSAGE][PASSED] - Object 'Object Repository/1.7. Assessment listing page/Header assessments' is present
+
+2018-07-17 18:07:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add new assessment link' is clicked on
+
+2018-07-17 18:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add new assessment link' is clicked on
+
+2018-07-17 18:07:16 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/1.7. Assessment listing page/Add new property assessment button' is visible
+
+2018-07-17 18:07:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:07:17 - [MESSAGE][PASSED] - Object 'Object Repository/1.7. Assessment listing page/Add new property assessment button' is visible
+
+2018-07-17 18:07:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add new property assessment button' is clicked on
+
+2018-07-17 18:07:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add new property assessment button' is clicked on
+
+2018-07-17 18:07:17 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-17 18:07:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-17 18:07:22 - [TEST_STEP][PASSED] - Statement - For (def index : (0..10)): Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button ceiling' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button main wall' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button basement' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button exposed floor' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button header' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - Statement - For (def index : (0..15)): Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button door' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - Statement - For (def index : (0..50)): Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Add button window' is clicked on
+
+2018-07-17 18:07:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.7. Assessment listing page/Start button' is clicked on
+
+2018-07-17 18:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1.7. Assessment listing page/Start button' is clicked on
+
+2018-07-17 18:07:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/General title' is present
+
+2018-07-17 18:07:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:07:50 - [MESSAGE][PASSED] - Object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/General title' is present
+
+2018-07-17 18:07:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'Sierra' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Property street'
+
+2018-07-17 18:07:50 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-17 18:07:50 - [MESSAGE][PASSED] - Keys 'Sierra' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Property street'
+
+2018-07-17 18:07:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'Priest' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Property city'
+
+2018-07-17 18:07:50 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomCity is PASSED
+
+2018-07-17 18:07:50 - [MESSAGE][PASSED] - Keys 'Priest' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Property city'
+
+2018-07-17 18:07:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A1A1' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Property postal code'
+
+2018-07-17 18:07:50 - [MESSAGE][PASSED] - Keys 'A1A1A1' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Property postal code'
+
+2018-07-17 18:07:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'A1A1A1' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Property postal code'
+
+2018-07-17 18:07:50 - [MESSAGE][PASSED] - Keys 'A1A1A1' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Property postal code'
+
+2018-07-17 18:07:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Select ownership' is clicked on
+
+2018-07-17 18:07:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Select ownership' is clicked on
+
+2018-07-17 18:07:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Select dwelling private' is clicked on
+
+2018-07-17 18:07:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Select dwelling private' is clicked on
+
+2018-07-17 18:07:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'Pablo' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Builder name'
+
+2018-07-17 18:07:50 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-17 18:07:51 - [MESSAGE][PASSED] - Keys 'Pablo' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Builder name'
+
+2018-07-17 18:07:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'Gavin' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Property tax roll'
+
+2018-07-17 18:07:51 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomFirstName is PASSED
+
+2018-07-17 18:07:51 - [MESSAGE][PASSED] - Keys 'Gavin' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Property tax roll'
+
+2018-07-17 18:07:51 - [TEST_STEP][PASSED] - sendKeys: Keys '23878' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/File number'
+
+2018-07-17 18:07:51 - [MESSAGE][PASSED] - newPackage.TestDataGenerator.getRandomZip is PASSED
+
+2018-07-17 18:07:51 - [MESSAGE][PASSED] - Keys '23878' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/File number'
+
+2018-07-17 18:07:51 - [TEST_STEP][PASSED] - sendKeys: Keys 'C1' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Client ID'
+
+2018-07-17 18:07:57 - [MESSAGE][PASSED] - Keys 'C1' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Client ID'
+
+2018-07-17 18:07:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Select client ID' is clicked on
+
+2018-07-17 18:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Select client ID' is clicked on
+
+2018-07-17 18:07:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Evaluation date' is clicked on
+
+2018-07-17 18:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Evaluation date' is clicked on
+
+2018-07-17 18:07:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Select date' is clicked on
+
+2018-07-17 18:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Select date' is clicked on
+
+2018-07-17 18:07:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Save and continue button' is clicked on
+
+2018-07-17 18:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Save and continue button' is clicked on
+
+2018-07-17 18:07:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Ok button' is visible
+
+2018-07-17 18:07:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:07:58 - [MESSAGE][PASSED] - Object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Ok button' is visible
+
+2018-07-17 18:07:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Ok button' is clicked on
+
+2018-07-17 18:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Ok button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/1.8. Verify that super admin is able to add assessment Info form" classname="Test Cases/Super Admin/1.8. Verify that super admin is able to add assessment Info form" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 8048326fe632008a1983bfbcc500e95a)"/>
+         <system-out><![CDATA[2018-07-17 18:07:59 - [TEST_CASE][FAILED] - Test Cases/Super Admin/1.8. Verify that super admin is able to add assessment Info form: Test Cases/Super Admin/1.8. Verify that super admin is able to add assessment Info form FAILED because (of) Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 8048326fe632008a1983bfbcc500e95a)
+
+2018-07-17 18:07:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:07:59 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details
+
+2018-07-17 18:07:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-17 18:07:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-17 18:08:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-17 18:08:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:08:03 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:08:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-17 18:08:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-17 18:08:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:08:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:08:04 - [MESSAGE][PASSED] - Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:08:04 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:08:04 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:08:04 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:08:04 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:08:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:08:07 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:08:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:08:07 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:08:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:08:07 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Top navigation assessments' is present
+
+2018-07-17 18:08:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:08:07 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Top navigation assessments' is present
+
+2018-07-17 18:08:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Top navigation assessments' is clicked on
+
+2018-07-17 18:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Top navigation assessments' is clicked on
+
+2018-07-17 18:08:07 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' is present
+
+2018-07-17 18:08:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:08:07 - [MESSAGE][PASSED] - Object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' is present
+
+2018-07-17 18:08:07 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 8048326fe632008a1983bfbcc500e95a)
+
+2018-07-17 18:08:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 8048326fe632008a1983bfbcc500e95a)
+[[ATTACHMENT|C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831087887.png]]
+
+2018-07-17 18:08:08 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment edit button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment edit button' located by 'By.xpath: //a[@href = '/Assessment/AddEditAssessment?id=uu3fSKZzBiUaH+V%2FxyoBzQ%3D%3D' and @title = 'Edit' and (text() = 'Edit' or . = 'Edit')]' not found)
+
+2018-07-17 18:08:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment edit button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment edit button' located by 'By.xpath: //a[@href = '/Assessment/AddEditAssessment?id=uu3fSKZzBiUaH+V%2FxyoBzQ%3D%3D' and @title = 'Edit' and (text() = 'Edit' or . = 'Edit')]' not found)
+[[ATTACHMENT|C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831119540.png]]
+
+2018-07-17 18:08:39 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.7. Assessment listing page/Header assessments' is present
+
+2018-07-17 18:08:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:08:39 - [MESSAGE][PASSED] - Object 'Object Repository/1.7. Assessment listing page/Header assessments' is present
+
+2018-07-17 18:08:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.2. Info form/Info tab' is clicked on
+
+2018-07-17 18:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.2. Info form/Info tab' is clicked on
+
+2018-07-17 18:09:03 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.8. Add assessment house form/1.8.2. Info form/Info value 1' is present
+
+2018-07-17 18:09:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:09:03 - [MESSAGE][PASSED] - Object 'Object Repository/1.8. Add assessment house form/1.8.2. Info form/Info value 1' is present
+
+2018-07-17 18:09:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'Value 1 here' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.2. Info form/Info value 1'
+
+2018-07-17 18:09:03 - [MESSAGE][PASSED] - Keys 'Value 1 here' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.2. Info form/Info value 1'
+
+2018-07-17 18:09:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'Value 2 here' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.2. Info form/Info value 2'
+
+2018-07-17 18:09:04 - [MESSAGE][PASSED] - Keys 'Value 2 here' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.2. Info form/Info value 2'
+
+2018-07-17 18:09:04 - [TEST_STEP][PASSED] - sendKeys: Keys 'Value 3 here' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.2. Info form/Info value 3'
+
+2018-07-17 18:09:04 - [MESSAGE][PASSED] - Keys 'Value 3 here' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.2. Info form/Info value 3'
+
+2018-07-17 18:09:04 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-17 18:09:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-17 18:09:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.2. Info form/Save and continue button' is clicked on
+
+2018-07-17 18:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.2. Info form/Save and continue button' is clicked on]]></system-out>
+         <system-err><![CDATA[2018-07-17 18:07:59 - [TEST_CASE][FAILED] - Test Cases/Super Admin/1.8. Verify that super admin is able to add assessment Info form: Test Cases/Super Admin/1.8. Verify that super admin is able to add assessment Info form FAILED because (of) Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 8048326fe632008a1983bfbcc500e95a)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Super Admin/1.9. Verify that super admin is able to add assessment specification form" classname="Test Cases/Super Admin/1.9. Verify that super admin is able to add assessment specification form" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: fb15b0106a1bbb3bb28cdd00ca4b5237)"/>
+         <system-out><![CDATA[2018-07-17 18:09:09 - [TEST_CASE][FAILED] - Test Cases/Super Admin/1.9. Verify that super admin is able to add assessment specification form: Test Cases/Super Admin/1.9. Verify that super admin is able to add assessment specification form FAILED because (of) Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: fb15b0106a1bbb3bb28cdd00ca4b5237)
+
+2018-07-17 18:09:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:09:10 - [TEST_CASE][PASSED] - Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details: Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details
+
+2018-07-17 18:09:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-17 18:09:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-17 18:09:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-17 18:09:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:09:14 - [MESSAGE][PASSED] - Navigate to 'http://buy-buywiser-qc.netsol.local/' successfully
+
+2018-07-17 18:09:14 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-17 18:09:15 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-17 18:09:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:09:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:09:15 - [MESSAGE][PASSED] - Object 'Object Repository/1.0. Log in page/Email field' is present
+
+2018-07-17 18:09:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:09:15 - [MESSAGE][PASSED] - Keys 'admin@admin.com' sent to object: 'Object Repository/1.0. Log in page/Email field'
+
+2018-07-17 18:09:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:09:15 - [MESSAGE][PASSED] - Keys 'Admin@123456' sent to object: 'Object Repository/1.0. Log in page/Password field'
+
+2018-07-17 18:09:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1.0. Log in page/Submit Button' is clicked on
+
+2018-07-17 18:09:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:09:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:09:16 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Header Energy Advisors ' is present
+
+2018-07-17 18:09:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Super Admin/1.0. Verify that super admin is able to login with valid details' successfully
+
+2018-07-17 18:09:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.1. Energy Advisors listing page/Top navigation assessments' is present
+
+2018-07-17 18:09:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:09:16 - [MESSAGE][PASSED] - Object 'Object Repository/1.1. Energy Advisors listing page/Top navigation assessments' is present
+
+2018-07-17 18:09:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.1. Energy Advisors listing page/Top navigation assessments' is clicked on
+
+2018-07-17 18:09:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1.1. Energy Advisors listing page/Top navigation assessments' is clicked on
+
+2018-07-17 18:09:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' is present
+
+2018-07-17 18:09:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:09:17 - [MESSAGE][PASSED] - Object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' is present
+
+2018-07-17 18:09:17 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: fb15b0106a1bbb3bb28cdd00ca4b5237)
+
+2018-07-17 18:09:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: fb15b0106a1bbb3bb28cdd00ca4b5237)
+[[ATTACHMENT|C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831157572.png]]
+
+2018-07-17 18:09:17 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment edit button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment edit button' located by 'By.xpath: //a[@href = '/Assessment/AddEditAssessment?id=uu3fSKZzBiUaH+V%2FxyoBzQ%3D%3D' and @title = 'Edit' and (text() = 'Edit' or . = 'Edit')]' not found)
+
+2018-07-17 18:09:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment edit button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment edit button' located by 'By.xpath: //a[@href = '/Assessment/AddEditAssessment?id=uu3fSKZzBiUaH+V%2FxyoBzQ%3D%3D' and @title = 'Edit' and (text() = 'Edit' or . = 'Edit')]' not found)
+[[ATTACHMENT|C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831188834.png]]
+
+2018-07-17 18:09:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.7. Assessment listing page/Header assessments' is not present after 0 second(s)
+
+2018-07-17 18:09:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:10:20 - [MESSAGE][WARNING] - Object 'Object Repository/1.7. Assessment listing page/Header assessments' is not present after 0 second(s)
+
+2018-07-17 18:10:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Specification tab' is clicked on
+
+2018-07-17 18:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Specification tab' is clicked on
+
+2018-07-17 18:10:25 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/House type drop down' is present
+
+2018-07-17 18:10:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-17 18:10:25 - [MESSAGE][PASSED] - Object 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/House type drop down' is present
+
+2018-07-17 18:10:25 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/House type drop down' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="filter-option pull-left">...</span> is not clickable at point (845, 347). Other element would receive the click: <div style="" class="overlay-menu">...</div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: fb15b0106a1bbb3bb28cdd00ca4b5237)
+
+2018-07-17 18:10:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/House type drop down' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <span class="filter-option pull-left">...</span> is not clickable at point (845, 347). Other element would receive the click: <div style="" class="overlay-menu">...</div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: fb15b0106a1bbb3bb28cdd00ca4b5237)
+[[ATTACHMENT|C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831225837.png]]
+
+2018-07-17 18:10:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/House type Double Semi-Detached (Double)' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: fb15b0106a1bbb3bb28cdd00ca4b5237)
+
+2018-07-17 18:10:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/House type Double Semi-Detached (Double)' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: fb15b0106a1bbb3bb28cdd00ca4b5237)
+[[ATTACHMENT|C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831226440.png]]
+
+2018-07-17 18:10:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Storey drop down' is clicked on
+
+2018-07-17 18:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Storey drop down' is clicked on
+
+2018-07-17 18:10:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Storeys One and a half' is clicked on
+
+2018-07-17 18:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Storeys One and a half' is clicked on
+
+2018-07-17 18:10:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Front orientation drop down' is clicked on
+
+2018-07-17 18:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Front orientation drop down' is clicked on
+
+2018-07-17 18:10:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Front orientation Northeast' is clicked on
+
+2018-07-17 18:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Front orientation Northeast' is clicked on
+
+2018-07-17 18:10:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Year build drop down' is clicked on
+
+2018-07-17 18:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Year build drop down' is clicked on
+
+2018-07-17 18:10:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Year build before 1920' is clicked on
+
+2018-07-17 18:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Year build before 1920' is clicked on
+
+2018-07-17 18:10:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Wall color drop down' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: fb15b0106a1bbb3bb28cdd00ca4b5237)
+
+2018-07-17 18:10:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Wall color drop down' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: fb15b0106a1bbb3bb28cdd00ca4b5237)
+[[ATTACHMENT|C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831227682.png]]
+
+2018-07-17 18:10:28 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Wall color medium brown' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: fb15b0106a1bbb3bb28cdd00ca4b5237)
+
+2018-07-17 18:10:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Wall color medium brown' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: fb15b0106a1bbb3bb28cdd00ca4b5237)
+[[ATTACHMENT|C:\\Users\\abhinav.gupta\\Katalon Studio\\BUY-BUYWISER\\Reports\\New Test Suite\\20180717_180527\\1531831228104.png]]
+
+2018-07-17 18:10:28 - [TEST_STEP][PASSED] - sendKeys: Keys '100' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Above grade'
+
+2018-07-17 18:10:28 - [MESSAGE][PASSED] - Keys '100' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Above grade'
+
+2018-07-17 18:10:28 - [TEST_STEP][PASSED] - sendKeys: Keys '10' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Below grade'
+
+2018-07-17 18:10:28 - [MESSAGE][PASSED] - Keys '10' sent to object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/Below grade'
+
+2018-07-17 18:10:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-17 18:10:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-17 18:10:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/input_submit-btn-new' is clicked on
+
+2018-07-17 18:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1.8. Add assessment house form/1.8.3. Specification form/input_submit-btn-new' is clicked on]]></system-out>
+         <system-err><![CDATA[2018-07-17 18:09:09 - [TEST_CASE][FAILED] - Test Cases/Super Admin/1.9. Verify that super admin is able to add assessment specification form: Test Cases/Super Admin/1.9. Verify that super admin is able to add assessment specification form FAILED because (of) Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: fb15b0106a1bbb3bb28cdd00ca4b5237)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-17 18:05:29 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Super Admin/1.8. Verify that super admin is able to add assessment Info form FAILED because (of) Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 8048326fe632008a1983bfbcc500e95a)]]></system-out>
+      <system-err><![CDATA[2018-07-17 18:05:29 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Super Admin/1.8. Verify that super admin is able to add assessment Info form FAILED because (of) Unable to click on object 'Object Repository/1.8. Add assessment house form/1.8.1. General form/Assessment menu button' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WKS227', ip: '172.16.14.121', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ABHINA~1.GUP\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 8048326fe632008a1983bfbcc500e95a)]]></system-err>
+   </testsuite>
+</testsuites>

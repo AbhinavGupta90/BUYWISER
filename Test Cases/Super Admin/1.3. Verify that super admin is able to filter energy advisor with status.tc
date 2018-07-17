@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>4. Verify that super admin is able to filter energy advisor with status</description>
+   <name>1.3. Verify that super admin is able to filter energy advisor with status</name>
+   <tag>super admin, filter</tag>
+   <comment></comment>
+   <testCaseGuid>d7ce2670-ec7e-4ec2-8488-70a37b1b6e96</testCaseGuid>
+</TestCaseEntity>
