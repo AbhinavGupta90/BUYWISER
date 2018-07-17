@@ -84,7 +84,7 @@ WebUI.sendKeys(findTestObject('1.8. Add assessment house form/1.8.3. Specificati
 'Enter below grade heated floor area'
 WebUI.sendKeys(findTestObject('1.8. Add assessment house form/1.8.3. Specification form/Below grade'), '10')
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 'Click on save and continue button'
 WebUI.click(findTestObject('1.8. Add assessment house form/1.8.3. Specification form/input_submit-btn-new'))
