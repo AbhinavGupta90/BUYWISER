@@ -41,5 +41,5 @@ WebUI.sendKeys(findTestObject('1.0. Log in page/Password field'), 'Admin@123456'
 WebUI.click(findTestObject('1.0. Log in page/Submit Button'))
 
 'Wait for header energy advisor'
-WebUI.waitForElementPresent(findTestObject('1.1. Energy Advisors listing page/Header Energy Advisors '), 1)
+WebUI.waitForElementPresent(findTestObject('1.1. Energy Advisors listing page/Header Energy Advisors '), 0)
 
